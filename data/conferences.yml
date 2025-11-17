@@ -18,6 +18,7 @@
 #     source: https://github.com/devrel-workshop/ai-as-lib-workshop
 #     slides: https://docs.google.com/presentation/d/e/2PACX-1vRgA5HVbBViro5I0kfW0bbqbhfAFj-jXpKqYp-DXTwPnalyB3YtrHEshCZDBE-is64J_H4qrWkLaz-L/pub
 #     replay: 
+
 - name: Devoxx Maroc
   postDate: 2025-11-13
   date: 13 novembre 2025
@@ -138,7 +139,7 @@
 
 - name: JUG Summer Camp
   postDate: 2025-09-16
-  date: 5 spetembre 2025
+  date: 5 septembre 2025
   talksUrl:  jug-summercamp-2025
   excerpt: "Talk donné lors du JUG Summer Camp 2025"
   categories: Conférences
@@ -317,7 +318,7 @@
 
         Je souhaite vous montrer que Java n'est pas le langage si obsolète et qu'il a bien suivi les différentes évolutions de notre écosystème pour être présent dans bien des étapes de la chaîne de conception d'une application, et pas que pour le développement 😉.
 
-        A la sortie de ce talk, vous aussi serez un•e vrai•e Java full stack ! 💪 
+        A la sortie de ce talk, vous aussi serez un•e vrai•e Java full stack ! 💪
       source: https://github.com/philippart-s/java-full-stack
       slides: https://philippart-s.github.io/talks-slides/java-full-stack/devoxx-fr-2025/
       replay: https://youtu.be/34BxbPEtPkA?si=yNx_WZheyafzhToI
@@ -337,7 +338,7 @@
 
         C'est le pari (spoiler : réussi) de JBang que je vous propose de découvrir durant une session de live coding.
 
-        A vous les joies du scripting en Java !  
+        A vous les joies du scripting en Java !
       source: https://github.com/philippart-s/jbang
       slides: https://philippart-s.github.io/talks-slides/java-full-stack/devoxx-fr-2025/
       replay: https://youtu.be/eHTDiYFtuI8?si=NtZIz4hqVDnhAfUe
@@ -439,4 +440,4 @@
         Et, toujours pour vous simplifier la vie, venez juste avec votre ordinateur et un navigateur Internet, on se charge du reste pour vous construire un environnement de développement aux petits oignons grâce aux CDE.
       source: https://github.com/devrel-workshop/ai-as-lib-workshop
       slides: https://docs.google.com/presentation/d/e/2PACX-1vRgA5HVbBViro5I0kfW0bbqbhfAFj-jXpKqYp-DXTwPnalyB3YtrHEshCZDBE-is64J_H4qrWkLaz-L/pub
-      replay: 
+      replay:
