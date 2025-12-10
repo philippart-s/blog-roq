@@ -30,26 +30,30 @@ Vous pouvez aussi retrouver la [liste des sujets](/talks) que j'ai donné en con
   }
 </style>
 
+
 <table>
+{#let confs=cdi:confs}
+{#for year in confs.fieldNames.stream().sorted().toList().reversed()}
   <tr>
     <th colspan="3">
-      <h1> 2025 </h1>
+      <h1> {year} </h1>
     </th>
   </tr>
-
-  {#for conference in cdi:conferences.confs %}
+{#for conf in confs.get(year)}
   <tr>
     <td style="width: 35%; text-align: left;">
-      {conference.name}
+      {conf.name}
     </td>
     <td style="width: 35%;">
-      🗓️ {conference.date} 🗓️
+      🗓️ {conf.date} 🗓️
     </td>
     <td style="width: 30%;">
-      🎤 <a href="/{conference.talksUrl}">
+      🎤 <a href="/{conf.talksUrl}">
         Liste des talks
       </a> 🎤
     </td>
   </tr>
-  {/for}
+{/for}
+{/for}
+
 </table>
