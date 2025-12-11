@@ -6,12 +6,6 @@ tags:
   - Conférences
 ---
 
-{#for entry in cdi:myConfs.getByIds("ids").entrySet()}
-## {entry.key}
-
-{/for}_
-
-
 # Talks
 
 Ici, vous trouverez l'ensemble des sujets de conférences que j'ai donnés.
@@ -24,7 +18,12 @@ Vous pouvez aussi lister les retrouver dans [la liste des conférences](/confere
 
 ## JBang, un fichier Java pour les gouverner tous ?
 ---
-- [Devoxx Maroc 2025](2025-11-13-devoxx-maroc-2025-talks#JBang, un fichier Java pour les gouverner tous ?)
+{#for talk in cdi:myConfs.getByIds("picocli")}
+- [{talk.name} - {talk.date}](/{talk.talksUrl}/#{talk.id})
+
+{/for}
+
+- [Devoxx Maroc 2025](2025-11-13-devoxx-maroc-2025-talks)
 - [BDX I/0 2025](2025-11-7-bdx-io-2025-talks#JBang, un fichier Java pour les gouverner tous ?)
 - [DevFest Nantes 2025](2025-10-18-devfestnantes-2025-talks#JBang, un fichier Java pour les gouverner tous ?)
 - [Devoxx France 2025](2025-04-16-devoxx-fr-2025-talks#JBang, un fichier Java pour les gouverner tous ?)
@@ -33,7 +32,7 @@ Vous pouvez aussi lister les retrouver dans [la liste des conférences](/confere
 ## Picocli, mets du Java dans ton terminal !
 ---
 - [Devoxx Belgium 2025](2025-10-10-devoxx-belgium-2025-talks)
-- [JUG Summer Camp 2025](/jug-summercamp-2025)
+- [JUG Summer Camp 2025](/jug-summercamp-2025/#picocli)
 - [Lava JUG 2025](2025-05-22-lava-jug-2025-talks)
 - [Devoxx UK 2025](2025-05-07-devoxx-uk-2025-talks)
 - [Confoo 2025](2025-02-26-confoo-2025-talks#Picocli, mets du Java dans ton terminal !)

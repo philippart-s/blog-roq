@@ -148,6 +148,7 @@
     - Replays
   talks:
     - title: "☕️ Picocli : mets du Java dans ton terminal ! 🖥️"
+      id: picocli
       location: La Rochelle (🇫🇷)
       language: Français
       date: Vendredi 5 septembre 2025
@@ -167,6 +168,7 @@
         Et qui sait, avec un peu de magie on aura, au final, un vrai assistant intelligent dans notre et terminal 🤖.
       source: https://github.com/philippart-s/jarvis
       slides: https://philippart-s.github.io/talks-slides/jarvis/jsc-2025/
+      replay:
 
 - name: Sunny Tech
   postDate: 2025-07-13
