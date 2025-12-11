@@ -5,13 +5,6 @@ tags:
   - talks
   - Conférences
 ---
-
-{#for entry in cdi:myConfs.getByIds("ids").entrySet()}
-## {entry.key}
-
-{/for}_
-
-
 # Talks
 
 Ici, vous trouverez l'ensemble des sujets de conférences que j'ai donnés.

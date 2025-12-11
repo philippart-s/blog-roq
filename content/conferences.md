@@ -32,14 +32,14 @@ Vous pouvez aussi retrouver la [liste des sujets](/talks) que j'ai donné en con
 
 
 <table>
-{#let confs=cdi:confs}
-{#for year in confs.fieldNames.stream().sorted().toList().reversed()}
+{#let conferences=cdi:conferences}
+{#for year in conferences.fieldNames.stream().sorted().toList().reversed()}
   <tr>
     <th colspan="3">
       <h1> {year} </h1>
     </th>
   </tr>
-{#for conf in confs.get(year)}
+{#for conf in conferences.get(year)}
   <tr>
     <td style="width: 35%; text-align: left;">
       {conf.name}
