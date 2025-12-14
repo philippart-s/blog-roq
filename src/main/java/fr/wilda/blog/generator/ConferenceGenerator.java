@@ -45,9 +45,9 @@ link: %s
             Files.write(file,
                     frontMatter.formatted(conference.getString("name"),
                             conference.getString("name"),
-                            (Files.exists(Path.of("./public/images/" + conference.getString("talksUrl") + ".png")) ?
-                                    conference.getString("talksUrl") + ".png" :
-                                    "conference.jpg"),
+                            (Files.exists(Path.of("./public/images/conferences/" + conference.getString("talksUrl") + ".png")) ?
+                                    "conferences/" + conference.getString("talksUrl") + ".png" :
+                                    "conferences/conference.jpg"),
                             conference.getString("talksUrl"),
                             conference.getString("talksUrl")).getBytes(),
                     StandardOpenOption.CREATE,
