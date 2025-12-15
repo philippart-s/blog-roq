@@ -1,5 +1,5 @@
 - name: Bordeaux JUG
-  post-date: 2024-12-12
+  postDate: 2024-12-12
   date: 12 décembre 2024
   talksUrl: bordeaux-jug-2024
   excerpt: "Liste des talks donnés lors de Bordeaux JUG 2024"
@@ -15,7 +15,7 @@
       date: Jeudi 12 décembre 2024
       time: 19h00 - 20h00
       duration: 1h
-      abstract: |
+      pitch: |
         Les CLI (Command Line Interface), tout le monde les utilise et elles existent depuis la nuit des temps. 
         Souvent synonyme de gain de productivité, leur création est parfois obscure et peut sembler complexe. 
         C’était le cas il y a quelques décennies, mais depuis quelques années, des langages et Frameworks permettent d’en écrire simplement dans votre langage préféré. 
@@ -30,7 +30,7 @@
       replay:
 
 - name: Apside Camp
-  post-date: 2024-11-12
+  postDate: 2024-11-12
   date: 12 novembre 2024
   talksUrl: apside-camp-2024
   excerpt: "Liste des talks donnés lors de l'Apside Camp 2024"
@@ -46,7 +46,7 @@
       date: Mercredi 12 novembre 2024
       time: 12h30 - 13h30
       duration: 1h
-      abstract: |
+      pitch: |
         L’intelligence artificielle commence à faire partie de nos vies personnelles mais aussi professionnelles. Si on commence à être habitué•es à les utiliser régulièrement il en est autrement pour ce qui concerne nos développements. Les intégrer peut nous paraître plus complexe que de les utiliser dans notre quotidien.
         
         Pourtant, les Larges Languages Models (LLM) ont apporté beaucoup de nouvelles possibilités et méritent qu’on s’y attarde.
@@ -63,7 +63,7 @@
       replay: https://youtu.be/B5Q1kL5ti20
 
 - name: Volcamp
-  post-date: 2024-10-10
+  postDate: 2024-10-10
   date: 10 octobre 2024
   talksUrl: volcamp-2024
   excerpt: "Liste des talks donnés lors de Volcamp 2024"
@@ -79,7 +79,7 @@
       date: Jeudi 10 octobre 2024
       time: 11h30 - 12h15
       duration: 45 minutes
-      abstract: |
+      pitch: |
         Les CLI (Command Line Interface), tout le monde les utilise et elles existent depuis la nuit des temps. 
         Souvent synonyme de gain de productivité, leur création est parfois obscure et peut sembler complexe. 
         
@@ -93,7 +93,7 @@
       replay: https://youtu.be/VsFhJuumQMo
 
 - name: Riviera Dev
-  post-date: 2024-07-08
+  postDate: 2024-07-08
   date: 8 au 10 juillet 2024
   talksUrl: riviera-dev-2024
   excerpt: "Liste des talks donnés lors de Riviera Dev 2024"
@@ -109,7 +109,7 @@
       date: mardi 9 juillet 2024
       time: 17h45 - 18h10
       duration: 25 minutes
-      abstract: |
+      pitch: |
         Les CLI (Command Line Interface), tout le monde les utilise et elles existent depuis la nuit des temps. 
         Souvent synonyme de gain de productivité, leur création est parfois obscure et peut sembler complexe. 
         
@@ -128,7 +128,7 @@
       date: lundi 8 juillet 2024
       time: 14h00 - 17h00
       duration: 3 heures
-      abstract: |
+      pitch: |
         L'IA est partout, du moins tout le monde revendique d'avoir de l'IA dans ses applications, ses objets connectés, …
         En parler c'est bien, la développer c'est encore mieux.
         
@@ -143,7 +143,7 @@
       slides: https://docs.google.com/presentation/d/1WEci3-E0R9WI0pKocBnKyDRuyVnCSImkRSt0x-dh0VQ/
 
 - name: Voxxed Days Luxembourg
-  post-date: 2024-06-20
+  postDate: 2024-06-20
   date: 20 & 21 juin 2024
   talksUrl: voxxed-days-lux-2024
   excerpt: "Liste des talks donnés lors de Voxxed Days Lux 2024"
@@ -158,7 +158,7 @@
       language: Français
       date: mardi 20 juin 2024
       duration: 25 minutes
-      abstract: |
+      pitch: |
         Les CLI (Command Line Interface), tout le monde les utilise et elles existent depuis la nuit des temps. 
         Souvent synonyme de gain de productivité, leur création est parfois obscure et peut sembler complexe. 
         
@@ -177,7 +177,7 @@
       language: Français
       date: mercredi 21 juin 2024
       duration: 2 heures
-      abstract: |
+      pitch: |
         L'IA est partout, du moins tout le monde revendique d'avoir de l'IA dans ses applications, ses objets connectés, …
         En parler c'est bien, la développer c'est encore mieux.
         
@@ -193,7 +193,7 @@
       replay: https://youtu.be/D4bWMjX7zCk
 
 - name: CNCF Lorient
-  post-date: 2024-05-20
+  postDate: 2024-05-20
   date: 20 mai 2024
   talksUrl: cncf-lorient-2024
   excerpt: "Talk donné lors du CNCF Lorient 2024"
@@ -208,7 +208,7 @@
       language: Français
       date: mardi 20 mai 2024
       duration: 30 minutes
-      abstract: |
+      pitch: |
         … Ou comment en tant que dev faire de l’IA sans être Data Scientist ? L’IA est partout, du moins tout le monde revendique d’avoir de l’IA dans ses applications, ses objets connectés, …
         
         Oui mais voilà, au final c’est quoi l’Intelligence Artificielle et qu’y a-t-il de caché derrière ce terme ? Comment expliquer simplement les notions techniques impliquées ? La grande IA va-t-elle gouverner le monde ?
@@ -219,7 +219,7 @@
       slides: https://philippart-s.github.io/talks-slides/ai-in-few-minutes/cncf-lorient-2024/
 
 - name: Devoxx France
-  post-date: 2024-04-16
+  postDate: 2024-04-16
   date: 16 au 18 avril 2024
   talksUrl:  devoxx-fr-2024
   excerpt: "Liste des talks donnés lors de Devoxx France 2024"
@@ -234,7 +234,7 @@
       language: Français
       date: Mercredi 16 avril 2024
       duration: 30 mins
-      abstract: |
+      pitch: |
         Les CLI (Command Line Interface), tout le monde les utilise et elles existent depuis la nuit des temps. 
         Souvent synonyme de gain de productivité, leur création est parfois obscure et peut sembler complexe. 
         
@@ -253,7 +253,7 @@
       language: Français
       date: Mercredi 16 avril 2024
       duration: 3 heures
-      abstract: |
+      pitch: |
         L'IA est partout, du moins tout le monde revendique d'avoir de l'IA dans ses applications, ses objets connectés, …
         En parler c'est bien, la développer c'est encore mieux.
 
@@ -268,7 +268,7 @@
       slides: https://www.canva.com/design/DAF9cbnB8Ec/tCaGhO-xiDkGGsIhS16xzg/
 
 - name: Snowcamp
-  post-date: 2024-01-31
+  postDate: 2024-01-31
   date: 31 janvier au 2 février 2024
   talksUrl:  snowcamp-2024
   excerpt: "Liste des talks donnés lors de Snowcamp 2024"
@@ -283,7 +283,7 @@
       language: Français
       date: Jeudi 1 février 2024
       duration: 30 mins
-      abstract: |
+      pitch: |
         Les CLI (Command Line Interface), tout le monde les utilise et elles existent depuis la nuit des temps. 
         Souvent synonyme de gain de productivité, leur création est parfois obscure et peut sembler complexe. 
         
@@ -301,7 +301,7 @@
       language: Français
       date: Mercredi 31 janvier 2024
       duration: 3 heures
-      abstract: |
+      pitch: |
         L'IA est partout, du moins tout le monde revendique d'avoir de l'IA dans ses applications, ses objets connectés, …
         En parler c'est bien, la développer c'est encore mieux.
 

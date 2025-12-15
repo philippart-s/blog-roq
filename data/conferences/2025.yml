@@ -51,9 +51,9 @@
       replay: ""
 
 - name: BDX I/O
-  postDate: 2025-11-7
+  postDate: 2025-11-07
   date: 7 novembre 2025
-  talksUrl:  bdx-io-2025
+  talksUrl: bdx-io-2025
   excerpt: "Talk donné lors de BDX I/O 2025"
   categories: Conférences
   tags:
