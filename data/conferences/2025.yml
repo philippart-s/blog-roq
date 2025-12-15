@@ -177,7 +177,7 @@
 - name: Sunny Tech
   postDate: 2025-07-13
   date: 26 juin 2025
-  talksUrl:  sunnytech-2025
+  talksUrl: sunnytech-2025
   excerpt: "Talk donné lors de Sunny Tech 2025"
   categories: Conférences
   tags:
@@ -207,6 +207,7 @@
         Et, toujours pour vous simplifier la vie, venez juste avec votre ordinateur et un navigateur Internet, je me charge du reste pour vous construire un environnement de développement aux petits oignons grâce aux CDE.
       source: https://github.com/devrel-workshop/ai-as-lib-workshop
       slides: https://docs.google.com/presentation/d/e/2PACX-1vTDc9BsSWwo2T8NgVw17_U8LwH6dc5Caa1AUwlzEF7FkK2BjlQr8BZW-oPHCmko48kMCQw0Ebary5KJ/pub
+      replay:
 
 - name: DevQuest
   postDate: 2025-06-09
@@ -269,6 +270,7 @@
         Et qui sait, avec un peu de magie et de LangChain4j on aura, au final, un vrai assistant intelligent dans notre et terminal .
       source: https://github.com/philippart-s/jarvis
       slides: https://philippart-s.github.io/talks-slides/jarvis/lavajug-2025/
+      replay:
 
 - name: Devoxx UK
   postDate: 2025-05-07
