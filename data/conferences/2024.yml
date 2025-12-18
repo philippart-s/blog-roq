@@ -120,6 +120,7 @@
         Et cerise sur le gâteau : nous créerons un « vrai » exécutable grâce à Graal VM. Venez m’accompagner lors d’une session de live coding permettant de mettre en lumière comment créer une CLI en Java avec Picocli et Quarkus en partant de zéro !
       source: https://github.com/philippart-s/jarvis
       slides: https://philippart-s.github.io/talks-slides/jarvis/riviera-dev-2024/
+      replay:
 
     - title: "Viens dompter ta première IA en Python"
       id: "ai-101-workshop"
@@ -141,6 +142,7 @@
         Arrivés en débutantes, débutants ou justes curieuses et curieux, vous repartirez en sachant customiser de A à Z un modèle d'IA et créer son application l'utilisant.
       source: https://github.com/devrel-workshop/101-AI-and-py
       slides: https://docs.google.com/presentation/d/1WEci3-E0R9WI0pKocBnKyDRuyVnCSImkRSt0x-dh0VQ/
+      replay:
 
 - name: Voxxed Days Luxembourg
   postDate: 2024-06-20
@@ -157,6 +159,7 @@
       location: Luxembourg (🇱🇺)
       language: Français
       date: mardi 20 juin 2024
+      time:
       duration: 25 minutes
       pitch: |
         Les CLI (Command Line Interface), tout le monde les utilise et elles existent depuis la nuit des temps. 
@@ -176,6 +179,7 @@
       location: Luxembourg (🇱🇺)
       language: Français
       date: mercredi 21 juin 2024
+      time:
       duration: 2 heures
       pitch: |
         L'IA est partout, du moins tout le monde revendique d'avoir de l'IA dans ses applications, ses objets connectés, …
@@ -207,6 +211,7 @@
       location: Lorient (🇫🇷)
       language: Français
       date: mardi 20 mai 2024
+      time:
       duration: 30 minutes
       pitch: |
         … Ou comment en tant que dev faire de l’IA sans être Data Scientist ? L’IA est partout, du moins tout le monde revendique d’avoir de l’IA dans ses applications, ses objets connectés, …
@@ -217,6 +222,8 @@
         
         Et tout ça en 30 minutes !
       slides: https://philippart-s.github.io/talks-slides/ai-in-few-minutes/cncf-lorient-2024/
+      replay:
+      source:
 
 - name: Devoxx France
   postDate: 2024-04-16
@@ -233,6 +240,7 @@
       location: Paris (🇫🇷)
       language: Français
       date: Mercredi 16 avril 2024
+      time:
       duration: 30 mins
       pitch: |
         Les CLI (Command Line Interface), tout le monde les utilise et elles existent depuis la nuit des temps. 
@@ -252,6 +260,7 @@
       location: Paris (🇫🇷)
       language: Français
       date: Mercredi 16 avril 2024
+      time:
       duration: 3 heures
       pitch: |
         L'IA est partout, du moins tout le monde revendique d'avoir de l'IA dans ses applications, ses objets connectés, …
@@ -266,6 +275,7 @@
         Arrivés en débutantes, débutants ou justes curieuses et curieux, vous repartirez en sachant customiser de A à Z un modèle d'IA et créer son application l'utilisant.
       source: https://github.com/devrel-workshop/101-AI-and-py
       slides: https://www.canva.com/design/DAF9cbnB8Ec/tCaGhO-xiDkGGsIhS16xzg/
+      replay:
 
 - name: Snowcamp
   postDate: 2024-01-31
@@ -282,6 +292,7 @@
       location: Grenoble (🇫🇷)
       language: Français
       date: Jeudi 1 février 2024
+      time:
       duration: 30 mins
       pitch: |
         Les CLI (Command Line Interface), tout le monde les utilise et elles existent depuis la nuit des temps. 
@@ -294,12 +305,14 @@
         Et cerise sur le gâteau : nous créerons un « vrai » exécutable grâce à Graal VM. Venez m’accompagner lors d’une session de live coding permettant de mettre en lumière comment créer une CLI en Java avec Picocli et Quarkus en partant de zéro !
       source: https://github.com/philippart-s/jarvis
       slides: https://philippart-s.github.io/talks-slides/jarvis/snowcamp-2024/
+      replay:
 
     - title: "Viens dompter ta première IA en Python"
       id: "ai-101-workshop"
       location: Grenoble (🇫🇷)
       language: Français
       date: Mercredi 31 janvier 2024
+      time:
       duration: 3 heures
       pitch: |
         L'IA est partout, du moins tout le monde revendique d'avoir de l'IA dans ses applications, ses objets connectés, …
@@ -314,3 +327,4 @@
         Arrivés en débutantes, débutants ou justes curieuses et curieux, vous repartirez en sachant customiser de A à Z un modèle d'IA et créer son application l'utilisant.
       source: https://github.com/devrel-workshop/101-AI-and-py
       slides: https://docs.google.com/presentation/d/e/2PACX-1vQw8ak85UY_U6uLaHC1R16UkxKybawQDMsQosVBlBLoK3ZsCf07t6zozCskjyc1GCxRyZRbtgwBWmJF/pub
+      replay:
