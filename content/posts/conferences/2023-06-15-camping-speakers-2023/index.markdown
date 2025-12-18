@@ -1,0 +1,9 @@
+---
+title: "🎤 Talks donnés à Le Camping des Speakers 🎤"
+description: Liste de talks donnés lors de la conférence Le Camping des Speakers
+image: conferences/conference.jpg
+layout: conference
+author: wilda
+conference-name: camping-speakers-2023
+link: camping-speakers-2023
+---
