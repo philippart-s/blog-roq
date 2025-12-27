@@ -1,7 +1,7 @@
 ---
 title: "🎤 Talks donnés à Riviera Dev 🎤"
 description: Liste de talks donnés lors de la conférence Riviera Dev
-image: conferences/conference.jpg
+image: conferences/riviera-dev-2023.png
 layout: conference
 author: wilda
 conference-name: riviera-dev-2023

@@ -1,7 +1,7 @@
 ---
 title: "🎤 Talks donnés à JUG Summer Camp 🎤"
 description: Liste de talks donnés lors de la conférence JUG Summer Camp
-image: conferences/conference.jpg
+image: conferences/jug-summer-camp-2022.png
 layout: conference
 author: wilda
 conference-name: jug-summer-camp-2022

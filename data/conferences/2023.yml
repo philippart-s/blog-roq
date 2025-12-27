@@ -14,6 +14,7 @@
       language: Français
       date: décembre 2023
       duration: 30 mins
+      time:
       pitch: |
         Les CLI (Command Line Interface), tout le monde les utilise et elles existent depuis la nuit des temps. 
         Souvent synonyme de gain de productivité, leur création est parfois obscure et peut sembler complexe. 
@@ -25,6 +26,7 @@
         Et cerise sur le gâteau : nous créerons un « vrai » exécutable grâce à Graal VM. Venez m’accompagner lors d’une session de live coding permettant de mettre en lumière comment créer une CLI en Java avec Picocli et Quarkus en partant de zéro !
       source: https://github.com/philippart-s/jarvis
       slides: https://philippart-s.github.io/talks-slides/jarvis/osxp-2023/
+      replay:
 
 - name: Codeurs en Seine
   postDate: 2023-10-15
@@ -42,6 +44,7 @@
       language: Français
       date: octobre 2023
       duration: 3 heures
+      time:
       pitch: |
         L'IA est partout, du moins tout le monde revendique d'avoir de l'IA dans ses applications, ses objets connectés, …
         En parler c'est bien, la développer c'est encore mieux.
@@ -55,6 +58,7 @@
         Arrivés en débutantes, débutants ou justes curieuses et curieux, vous repartirez en sachant customiser de A à Z un modèle d'IA et créer son application l'utilisant.
       source: https://github.com/devrel-workshop/101-AI-and-py
       slides: https://docs.google.com/presentation/d/e/2PACX-1vQ20OkhymfvaampdTQ-JC9viZk9SOnZcQyORETqOE3shALLnkC_GGYY_VqrTO1iC5nKzLNJRmlSJDBr/pub
+      replay:
 
 - name: Cloud Nord
   postDate: 2023-10-15
@@ -72,6 +76,7 @@
       language: Français
       date: octobre 2023
       duration: 20 minutes
+      time:
       pitch: |
         … Ou comment en tant que dev faire de l’IA sans être Data Scientist ? L’IA est partout, du moins tout le monde revendique d’avoir de l’IA dans ses applications, ses objets connectés, …
         
@@ -82,6 +87,7 @@
         Et tout ça en 20 minutes !
       slides: https://docs.google.com/presentation/d/e/2PACX-1vTTZM-DJUuUkNRv1VHgPvOUdtiIqDCOtSSeGVrmqcSTo5pF5yfvO2DSaDTH94EBXLd51dmfxEgtFQ5U/pub
       replay: https://youtu.be/g_wR-x5U_wc
+      source:
 
 - name: Devoxx Morocco 2023
   postDate: 2023-10-15
@@ -99,6 +105,7 @@
       language: Français
       date: octobre 2023
       duration: 2 heures
+      time:
       pitch: |
         L'IA est partout, du moins tout le monde revendique d'avoir de l'IA dans ses applications, ses objets connectés, …
         En parler c'est bien, la développer c'est encore mieux.
@@ -130,6 +137,7 @@
       language: Français
       date: septembre 2023
       duration: 20 minutes
+      time:
       pitch: |
         … Ou comment en tant que dev faire de l’IA sans être Data Scientist ? L’IA est partout, du moins tout le monde revendique d’avoir de l’IA dans ses applications, ses objets connectés, …
         
@@ -140,6 +148,7 @@
         Et tout ça en 20 minutes !
       slides: https://docs.google.com/presentation/d/e/2PACX-1vTEHXvYHjpZzEa7gn1fIeI_37lBwzza9OXTZQ_um4GomKyV3VtyKpbyYovI0svvulQap2olgimdOf9q/pub
       replay: https://youtu.be/g_wR-x5U_wc
+      source:
 
 - name: Riviera Dev
   postDate: 2023-07-15
@@ -157,6 +166,7 @@
       language: Français
       date: juillet 2023
       duration: 25 minutes
+      time:
       pitch: |
         … Ou comment en tant que dev faire de l’IA sans être Data Scientist ? L’IA est partout, du moins tout le monde revendique d’avoir de l’IA dans ses applications, ses objets connectés, …
         
@@ -167,11 +177,14 @@
         Et tout ça en 25 minutes !
       slides: https://docs.google.com/presentation/d/e/2PACX-1vTcaWng5_J7AYYhHhJB_9HHsLXfyIDxW0pjk2aYeC-Yjkw5_1YHZvzBd3DwftplogKuTxVgYNS5s_Ha/pub
       replay: https://youtu.be/e5Lb0B6j0VM
+      source:
     - title: "Développer un opérateur Kubernetes en Java, challenge accepted !"
+      id: "java-operator"
       location: Sophia Antipolis (🇫🇷)
       language: Français
       date: juillet 2023
       duration: 50 minutes
+      time:
       pitch: |
         Il n’est plus, je pense, nécessaire de présenter Kubernetes tellement il fait parti du paysage informatique. Avec sa généralisation, de nouveaux types de développements et de patterns sont apparus. Lors de ce talk j’aborderai l’un d’eux : les opérateurs.
         
@@ -187,6 +200,7 @@
 
       slides: https://docs.google.com/presentation/d/e/2PACX-1vQ9zLjbOoH6kiiJaay3KtflvYgRc_oNs__k9ZY3_bYPGhEdBwW02VL-N_cGqPUPpCHyALhHHuCKo9Vj/pub
       source: https://github.com/philippart-s/java-operator-samples
+      replay:
 
 - name: Voxxed Days Luxembourg
   postDate: 2023-06-15
@@ -204,6 +218,7 @@
       language: Français
       date: juin 2023
       duration: 15 minutes
+      time:
       pitch: |
         … Ou comment en tant que dev faire de l’IA sans être Data Scientist ? L’IA est partout, du moins tout le monde revendique d’avoir de l’IA dans ses applications, ses objets connectés, …
         
@@ -214,12 +229,14 @@
         Et tout ça en 15 minutes !
       slides: https://docs.google.com/presentation/d/e/2PACX-1vSSO1iqYY6WVMR-Ef8JNXaHv81nBKsZXyr7y9Lh5fPF_-yH7HT-mNnpMzXVaTRyhjf9SMui5BzjAUW0/pub
       replay: https://youtu.be/yQUPIQiDeU4
+      source:
     - title: "CaaS, Serverless, scale to zero."
       id: "knative"
       location: Luxembourg (🇱🇺)
       language: Français
       date: juin 2023
       duration: 45 minutes
+      time:
       pitch: |
         Kubernetes est, depuis quelques temps, de plus en plus la normalité en entreprise. Avec cette nouvelle façon de concevoir son Système d’Information, de déployer et opérer les applications, de nouveaux besoins se sont faits sentir.
         
@@ -250,6 +267,7 @@
       language: Français
       date: juin 2023
       duration: 45 minutes
+      time:
       pitch: |
         Développer un opérateur peu, de prime abord, être plutôt impressionnant. Heureusement différents Frameworks ont vu le jour, dont le plus connu, Operator SDK (https://sdk.operatorframework.io/), permettant de développer en Go, Helm ou Ansible un opérateur.
         
@@ -266,12 +284,14 @@
         A la fin de ce talk, vous aurez les différents éléments pour savoir si vous avez besoin de développer un opérateur, comment le développer, et choisir quel langage utiliser selon vos connaissances !
       slides: https://docs.google.com/presentation/d/e/2PACX-1vSSO1iqYY6WVMR-Ef8JNXaHv81nBKsZXyr7y9Lh5fPF_-yH7HT-mNnpMzXVaTRyhjf9SMui5BzjAUW0/pub
       replay: https://youtu.be/ZhKPyCRAh54
+      source:
     - title: "CaaS, Serverless, scale to zero."
       id: "knative"
       location: Lyon (🇫🇷)
       language: Français
       date: juin 2023
       duration: 45 minutes
+      time:
       pitch: |
         Kubernetes est, depuis quelques temps, de plus en plus la normalité en entreprise. Avec cette nouvelle façon de concevoir son Système d’Information, de déployer et opérer les applications, de nouveaux besoins se sont faits sentir.
         
@@ -284,6 +304,7 @@
         Vous repartirez de ce talk, j’espère, en ayant compris les différentes solutions pour répondre à ces problèmes en ayant pris conscience qu’il est possible de s’affranchir de solutions propriétaires pour y arriver 😉.
       slides: https://docs.google.com/presentation/d/e/2PACX-1vSeN0-H16tsp9Xn6R4b2xX6wuYSiEu6Y2G6wNS2D1BGo9h6eTgOtVZ6vPqGtAhHA2kXFQrsatW6s9og/pub
       source: https://github.com/philippart-s/kn-serving-samples
+      replay:
 
 - name: Le Camping des Speakers
   postDate: 2023-06-15
@@ -301,6 +322,7 @@
       language: Français
       date: juin 2023
       duration: 20 minutes
+      time:
       pitch: |
         … Ou comment en tant que dev faire de l’IA sans être Data Scientist ? L’IA est partout, du moins tout le monde revendique d’avoir de l’IA dans ses applications, ses objets connectés, …
         
@@ -310,7 +332,8 @@
         
         Et tout ça en 20 minutes !
       slides: https://docs.google.com/presentation/d/e/2PACX-1vQVg_V9yYEUBGdT-JIJC4H4oDCur7odVBagTi5lPn6JCNMtR7avfdtXbOVytMvQjrG7RWXCh4GqxYRO/pub
-
+      source:
+      replay:
 - name: Web2day
   postDate: 2023-05-15
   talksUrl: web2day-2023
@@ -327,6 +350,7 @@
       language: Français
       date: mai 2023
       duration: 30 minutes
+      time:
       pitch: |
         Kubernetes est, depuis quelques temps, de plus en plus la normalité en entreprise. Avec cette nouvelle façon de concevoir son Système d’Information, de déployer et opérer les applications, de nouveaux besoins se sont faits sentir.
         
@@ -339,6 +363,7 @@
         Vous repartirez de ce talk, j’espère, en ayant compris les différentes solutions pour répondre à ces problèmes en ayant pris conscience qu’il est possible de s’affranchir de solutions propriétaires pour y arriver 😉.
       slides: https://docs.google.com/presentation/d/e/2PACX-1vR9SainA4p4YLdLvQRQ-FA0wwgXmyzgJXVPKfWX7kmgOj4uL06Dwz8ohfhbYZBaBhSEwy-jn0A6D3iC/pub
       source: https://github.com/philippart-s/kn-serving-samples
+      replay:
 
 - name: Paris JUG
   postDate: 2023-05-15
@@ -356,6 +381,7 @@
       language: Français
       date: mai 2023
       duration: 50 minutes
+      time:
       pitch: |
         Il n’est plus, je pense, nécessaire de présenter Kubernetes tellement il fait parti du paysage informatique. Avec sa généralisation, de nouveaux types de développements et de patterns sont apparus. Lors de ce talk j’aborderai l’un d’eux : les opérateurs.
         
@@ -388,6 +414,7 @@
       language: Français
       date: mars 2023
       duration: 50 minutes
+      time:
       pitch: |
         Il n’est plus, je pense, nécessaire de présenter Kubernetes tellement il fait parti du paysage informatique. Avec sa généralisation, de nouveaux types de développements et de patterns sont apparus. Lors de ce talk j’aborderai l’un d’eux : les opérateurs.
         
@@ -420,6 +447,7 @@
       language: Français
       date: mars 2023
       duration: 50 minutes
+      time:
       pitch: |
         Il n’est plus, je pense, nécessaire de présenter Kubernetes tellement il fait parti du paysage informatique. Avec sa généralisation, de nouveaux types de développements et de patterns sont apparus. Lors de ce talk j’aborderai l’un d’eux : les opérateurs.
         
@@ -434,6 +462,7 @@
         A la fin de ce talk, vous aurez les différents éléments pour savoir si vous avez besoin de développer un opérateur, comment le développer, et choisir entre le faire en Java ou dans un autre langage !
       slides: https://docs.google.com/presentation/d/e/2PACX-1vSnKIHMuWaYwvDUicRCk1NNgowYN7j1TNeMem-pLyxF0T2emde7Xkh0kQz5J-kSworGgXO9iAAkO1Xv/pub
       source: https://github.com/philippart-s/java-operator-samples
+      replay:
 
 - name: Kubernetes Community Days France 2023
   postDate: 2023-03-15
@@ -451,6 +480,7 @@
       language: Français
       date: mars 2023
       duration: 30 minutes
+      time:
       pitch: |
         Développer un opérateur peu, de prime abord, être plutôt impressionnant. Heureusement différents Frameworks ont vu le jour, dont le plus connu, Operator SDK (https://sdk.operatorframework.io/), permettant de développer en Go, Helm ou Ansible un opérateur.
         
@@ -485,6 +515,7 @@
       language: Français
       date: février 2023
       duration: 45 minutes
+      time:
       pitch: |
         Kubernetes est, depuis quelques temps, de plus en plus la normalité en entreprise. Avec cette nouvelle façon de concevoir son Système d’Information, de déployer et opérer les applications, de nouveaux besoins se sont faits sentir.
         
@@ -497,6 +528,7 @@
         Vous repartirez de ce talk, j’espère, en ayant compris les différentes solutions pour répondre à ces problèmes en ayant pris conscience qu’il est possible de s’affranchir de solutions propriétaires pour y arriver 😉.
       slides: https://docs.google.com/presentation/d/e/2PACX-1vSK73hAFiHAOe3KPLMfg_qlrqnPAUJpiLTIUgvchYCfSANyTKUmWONxbNpliQMnefBouGCR0pdheneF/pub
       source: https://github.com/philippart-s/kn-serving-samples
+      replay:
 
 - name: Snowcamp 2023
   postDate: 2023-01-15
@@ -514,6 +546,7 @@
       language: Français
       date: janvier 2023
       duration: 3h
+      time:
       pitch: |
         Les opérateurs Kubernetes prennent de plus en plus de place de place dans l’éco-système Kubernetes. Un Opérateur simplifie le packaging et le déploiement des applications au sein de Kubernetes mais il permet aussi d’automatiser la partie opérationnelle telle que les mises à jour, les migrations etc …
         
@@ -530,12 +563,14 @@
         A la sortie de ce workshop non seulement le monde des opérateurs n’aura plus de secret pour toi, mais en plus tu en auras développé un !
       slides: https://docs.google.com/presentation/d/e/2PACX-1vSAbycTHbdO-BgVV9dzBn0eAHM2q4lsn72D3sK16vupJYYz5C2ks47BpDg1clYdKsSSn5AMXROpQl6U/pub
       source: https://github.com/k8s-operator-workshop
+      replay:
     - title: "Si on aidait le capitaine Némo à classifier les monstres marins ?"
       id: "nemo"
       location: Grenoble (🇫🇷)
       language: Français
       date: janvier 2023
       duration: 50 minutes
+      time:
       pitch: |
         Intelligence Artificielle, Machine Learning, Deep Learning, … Ces termes on les entend tous les jours mais Iau final que représentent-ils et surtout comment développe-t-on des applications basées sur ces notions ?
         
@@ -545,6 +580,8 @@
         
         Pour finir, nous verrons ensemble, avec Streamlit, comment développer une application utilisant ce modèle.    slides: https://docs.google.com/presentation/d/e/2PACX-1vSAbycTHbdO-BgVV9dzBn0eAHM2q4lsn72D3sK16vupJYYz5C2ks47BpDg1clYdKsSSn5AMXROpQl6U/pub
       source: https://github.com/eleapttn/nemo-notebook
+      slides:
+      replay:
 
 - name: Touraine Tech
   postDate: 2023-01-15
@@ -562,6 +599,7 @@
       language: Français
       date: janvier 2023
       duration: 50 minutes
+      time:
       pitch: |
         Intelligence Artificielle, Machine Learning, Deep Learning, … Ces termes on les entend tous les jours mais Iau final que représentent-ils et surtout comment développe-t-on des applications basées sur ces notions ?
         
@@ -572,3 +610,4 @@
         Pour finir, nous verrons ensemble, avec Streamlit, comment développer une application utilisant ce modèle.    slides: https://docs.google.com/presentation/d/e/2PACX-1vSAbycTHbdO-BgVV9dzBn0eAHM2q4lsn72D3sK16vupJYYz5C2ks47BpDg1clYdKsSSn5AMXROpQl6U/pub
       source: https://github.com/eleapttn/nemo-notebook
       replay: https://youtu.be/l3DTnRJlhdE
+      slides:

@@ -1,7 +1,7 @@
 ---
 title: "🎤 Talks donnés à Meetup Programmez 🎤"
 description: Liste de talks donnés lors de la conférence Meetup Programmez
-image: conferences/conference.jpg
+image: conferences/meetup-programmez-2023.png
 layout: conference
 author: wilda
 conference-name: meetup-programmez-2023

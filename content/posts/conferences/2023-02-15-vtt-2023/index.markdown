@@ -1,7 +1,7 @@
 ---
 title: "🎤 Talks donnés à Very Tech Trip 🎤"
 description: Liste de talks donnés lors de la conférence Very Tech Trip
-image: conferences/conference.jpg
+image: conferences/vtt-2023.png
 layout: conference
 author: wilda
 conference-name: vtt-2023
