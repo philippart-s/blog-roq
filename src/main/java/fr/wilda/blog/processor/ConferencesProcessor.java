@@ -50,9 +50,6 @@ public class ConferencesProcessor {
                 .map(event -> (JsonObject) event)
                 .filter(event -> url.equals(event.getString("talksUrl")))
                 .toList();
-
-        //System.out.println(filtered);
-
         return filtered;
     }
 

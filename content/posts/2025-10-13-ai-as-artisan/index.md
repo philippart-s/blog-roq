@@ -7,7 +7,7 @@ tags:
   - Humeur
   - IA 
 author: wilda
-figCaption: <a href="https://example.com">Jean Dupont</a>
+figCaption: ©Jean Dupont
 ---
 
 > ℹ️ Ne vous méprenez pas sur ce qui suit.
@@ -192,12 +192,5 @@ Et avec un peu de tristesse, je me dis que, peut-être, ses jours tels que je le
 
 Si vous êtes arrivé·es là, merci car ce fut long et j'espère que vous avez apprécié ma modeste prose ... sortie de mon cerveau sans aucune aide extérieure 😉.
 
-<figure>
-    <img syle="" src="amstrad.jpg" alt="🤖 L'IA cet artisan comme les autres (?) 🧰">
-    <figcaption style="font-size: smaller">
-        <a href="https://www.computinghistory.org.uk/">© Centre for Computing History</a>
-    </figcaption>
-</figure>
-
-![Un amstrad CPC 6128](amstrad.jpg){: .align-center}  
-[© Centre for Computing History](https://www.computinghistory.org.uk/){:style="font-size: smaller"}{:target="_blank"}{: .align-right}<br/>
+![Un amstrad CPC 6128](amstrad.jpg)  
+[© Centre for Computing History](https://www.computinghistory.org.uk/)

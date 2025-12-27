@@ -1,445 +1,330 @@
-# conf-2025:
-#  name: conf
-#  postDate: 2025-01-22
-#  date: 22 au 25 janvier 2025 
-#  excerpt: "Liste des talks donnés lors de Conf 2025"
-#  categories: Conférences
-#  tags:
-#    - Slides
-#    - Replays
-#  talks:
-#   - title: "Développer avec l’IA : et si c’était aussi simple qu’ajouter une librairie ?"
-#     location: Grenoble (🇫🇷)
-#     language: Français
-#     date: Mercredi 22 janvier 2025
-#     time: 14h00 - 17h00
-#     duration: 3h mins
-#     pitch: |
-#     source: https://github.com/devrel-workshop/ai-as-lib-workshop
-#     slides: https://docs.google.com/presentation/d/e/2PACX-1vRgA5HVbBViro5I0kfW0bbqbhfAFj-jXpKqYp-DXTwPnalyB3YtrHEshCZDBE-is64J_H4qrWkLaz-L/pub
-#     replay: 
-
-- name: Devoxx Maroc
-  postDate: 2025-11-13
-  date: 13 novembre 2025
-  talksUrl:  devoxx-maroc-2025
-  excerpt: "Talk donné lors de Devoxx Maroc 2025"
+- name: Bordeaux JUG
+  postDate: 2024-12-12
+  date: 12 décembre 2024
+  talksUrl: bordeaux-jug-2024
+  excerpt: "Liste des talks donnés lors de Bordeaux JUG 2024"
   categories: Conférences
   tags:
     - Slides
     - Replays
   talks:
-    - title: "JBang, un fichier Java pour les gouverner tous ?"
-      location: Devoxx Maroc (🇲🇦)
+    - title: "Picocli, mets du Java dans ton terminal !"
+      id: "picocli"
+      location: Bordeaux (🇫🇷)
       language: Français
-      date: Vendredi 13 novembre 2025
-      time: 11h30 - 11h55
-      duration: 25 mins
-      pitch: |
-        Dans le monde Java, nous sommes habitués à initialiser un projet avec de nombreux fichiers et répertoires. 
-        A tel point que des CLI ont vu le jour pour nous aider à créer les projets SpringBoot ou Quarkus par exemple. 
-        Vient ensuite le choix du "package manager" : Maven ou Gradle ? 
-        Et c'est seulement à partir de là que l'on peut commencer à développer puis exécuter son code 😅. 
-        Toutes ces étapes fastidieuses expliquent pourquoi, lorsque que l'on a besoin de faire un développement rapide de quelques lignes pour automatiser une action, on préfère d'autres langages à Java : Python par exemple. 
-        Et si je vous disais, qu'avec JBang, vous allez pouvoir rester avec votre langage préféré, Java, et développer une classe toute simple (avec des dépendances externes) en quelques secondes ! 
-        C'est le pari (spoiler : réussi) de JBang que je vous propose de découvrir durant une session de live coding. 
-        
-        A vous les joies du scripting en Java !
-      source: https://github.com/philippart-s/jbang
-      slides: https://docs.google.com/presentation/d/e/2PACX-1vTSU5lEVEOLfk6Cw9IpNNt5CeStttfNX2OtQda_y0tRz9OSGRJcxmKW4j3YVk5wi4EJQ2qJSQqD-CyA/pub
-      replay:
-
-- name: BDX I/O
-  postDate: 2025-11-7
-  date: 7 novembre 2025
-  talksUrl:  bdx-io-2025
-  excerpt: "Talk donné lors de BDX I/O 2025"
-  categories: Conférences
-  tags:
-    - Slides
-    - Replays
-  talks:
-    - title: "JBang, un fichier Java pour les gouverner tous ?"
-      location: BDX I/O (🇫🇷)
-      language: Français
-      date: Vendredi 7 novembre 2025
-      time: 15h15 - 15h30
-      duration: 15 mins
-      pitch: |
-        Dans le monde Java, nous sommes habitués à initialiser un projet avec de nombreux fichiers et répertoires. 
-        A tel point que des CLI ont vu le jour pour nous aider à créer les projets SpringBoot ou Quarkus par exemple. 
-        Vient ensuite le choix du "package manager" : Maven ou Gradle ? 
-        Et c'est seulement à partir de là que l'on peut commencer à développer puis exécuter son code 😅. 
-        Toutes ces étapes fastidieuses expliquent pourquoi, lorsque que l'on a besoin de faire un développement rapide de quelques lignes pour automatiser une action, on préfère d'autres langages à Java : Python par exemple. 
-        Et si je vous disais, qu'avec JBang, vous allez pouvoir rester avec votre langage préféré, Java, et développer une classe toute simple (avec des dépendances externes) en quelques secondes ! 
-        C'est le pari (spoiler : réussi) de JBang que je vous propose de découvrir durant une session de live coding. 
-        
-        A vous les joies du scripting en Java !
-      source: https://github.com/philippart-s/jbang
-      slides: https://docs.google.com/presentation/d/e/2PACX-1vTwSjNyHmLXn_nigB-lc0wKL_nVm3cjFcKQKVevkyhb1k9S1hvZiYe4g0_jqGqxgd2XAGVHUaPi4XCo/pub
-      replay:
-
-- name: DevFest Nantes
-  postDate: 2025-10-18
-  date: 16 octobre 2025
-  talksUrl:  devfestnantes-2025
-  excerpt: "Talk donné lors de DevFest Nantes 2025"
-  categories: Conférences
-  tags:
-    - Slides
-    - Replays
-  talks:
-    - title: "JBang, un fichier Java pour les gouverner tous ?"
-      location: Nantes (🇫🇷)
-      language: Français
-      date: Vendredi 18 octobre 2025
-      time: 16h20 - 16h40
-      duration: 20mins
-      pitch: |
-        Dans le monde Java, nous sommes habitués à initialiser un projet avec de nombreux fichiers et répertoires. 
-        A tel point que des CLI ont vu le jour pour nous aider à créer les projets SpringBoot ou Quarkus par exemple. 
-        Vient ensuite le choix du "package manager" : Maven ou Gradle ? 
-        Et c'est seulement à partir de là que l'on peut commencer à développer puis exécuter son code 😅. 
-        Toutes ces étapes fastidieuses expliquent pourquoi, lorsque que l'on a besoin de faire un développement rapide de quelques lignes pour automatiser une action, on préfère d'autres langages à Java : Python par exemple. 
-        Et si je vous disais, qu'avec JBang, vous allez pouvoir rester avec votre langage préféré, Java, et développer une classe toute simple (avec des dépendances externes) en quelques secondes ! 
-        C'est le pari (spoiler : réussi) de JBang que je vous propose de découvrir durant une session de live coding. 
-        
-        A vous les joies du scripting en Java !
-      source: https://github.com/philippart-s/jbang
-      slides: https://docs.google.com/presentation/d/e/2PACX-1vRF50mgvW6KzZf6lspATsmJRfTU79-CdlyDO8JP23f6ZldfvSGCkxe7wRwy9WaQMfD3EVqza0q5ukkB/pub
-      replay: https://youtu.be/Aj8Bfq6X0tM?si=ebUR2CzDbzC6267N
-
-- name: Devoxx Belgium
-  postDate: 2025-10-10
-  date: 6 au 9 octobre 2025
-  talksUrl:  devoxx-belgium-2025
-  excerpt: "Talk donné lors de Devoxx Belgium 2025"
-  categories: Conférences
-  tags:
-    - Slides
-    - Replays
-  talks:
-    - title: "Picocli: put some Java in your terminal 💻!"
-      location: Anvers (🇧🇪)
-      language: Anglais
-      date: lundi 6 octobre 2025
-      time: 18h10 - 18h40
-      duration: 30 minutes
-      pitch: |
-        Everyone uses CLIs (Command Line Interfaces), and they’ve been around since the dawn of time. Often synonymous with productivity gains, their creation is sometimes obscure and can seem complex.
-  
-        This was the case a few decades ago, but in recent years, languages and frameworks have made it possible to write them simply in your favorite language. I propose to use a language which, at first glance, may not seem the most intuitive for creating a CLI: Java!
-  
-        Thanks to Picocli and Quarkus, your CLI will have all the bells and whistles of a great CLI, yet be simple to develop! And the icing on the cake: we’ll create a “real” executable thanks to Graal VM.
-  
-        Come and join me for a live coding session that will show you how to create a Java CLI with Picocli and Quarkus from scratch!
-      source: https://github.com/philippart-s/jarvis
-      slides: https://philippart-s.github.io/talks-slides/jarvis/devoxx-2025/
-      replay: https://youtu.be/usTiNoSNdlw
-
-- name: JUG Summer Camp
-  postDate: 2025-09-16
-  date: 5 septembre 2025
-  talksUrl:  jug-summercamp-2025
-  excerpt: "Talk donné lors du JUG Summer Camp 2025"
-  categories: Conférences
-  tags:
-    - Slides
-    - Replays
-  talks:
-    - title: "☕️ Picocli : mets du Java dans ton terminal ! 🖥️"
-      id: picocli
-      location: La Rochelle (🇫🇷)
-      language: Français
-      date: Vendredi 5 septembre 2025
-      time: 17h50 - 18h20
-      duration: 30 mins
-      pitch: |
-        Les CLI (Command Line Interface), tout le monde les utilise et elles existent depuis la nuit des temps.
-        Souvent synonymes de gain de productivité, leur création est parfois obscure et peut sembler complexe.
-        C'était le cas il y a quelques décennies, mais depuis quelques années, des langages et Frameworks permettent d'en écrire simplement dans votre langage préféré.
-        Je vous propose d'utiliser un langage qui ne paraît pas, au premier abord, le plus intuitif pour faire une CLI : Java !
-
-        Mais il sera bien accompagné dans cette tâche : grâce à Picocli et Quarkus, notre CLI aura tout d'une grande, tout en étant simple à développer !
-        Et cerise sur le gâteau : nous créerons un "vrai" exécutable grâce à Graal VM.
-
-        Venez m'accompagner lors d'une session de live coding permettant de mettre en lumière comment créer une CLI en Java avec Picocli et Quarkus en partant de zéro !
-
-        Et qui sait, avec un peu de magie on aura, au final, un vrai assistant intelligent dans notre et terminal 🤖.
-      source: https://github.com/philippart-s/jarvis
-      slides: https://philippart-s.github.io/talks-slides/jarvis/jsc-2025/
-      replay:
-
-- name: Sunny Tech
-  postDate: 2025-07-13
-  date: 26 juin 2025
-  talksUrl:  sunnytech-2025
-  excerpt: "Talk donné lors de Sunny Tech 2025"
-  categories: Conférences
-  tags:
-    - Slides
-    - Replays
-  talks:
-    - title: "Développer avec l'IA : et si c'était aussi simple qu'ajouter une librairie ?"
-      location: Montpellier (🇫🇷)
-      language: Français
-      date: Jeudi 26 juin 2025
-      time: 16h20 - 18h10
-      duration: 1h50
-      pitch: |
-        L’intelligence artificielle et les LLM commencent à faire partie de nos vies personnelles mais aussi professionnelles.
-
-        Si on est habitué•es à les utiliser régulièrement, il en est autrement pour ce qui concerne nos développements.
-
-        Les intégrer peut nous paraître plus complexe que de les utiliser dans notre quotidien.
-
-        Dois-je apprendre un nouveau langage ou une nouvelle stack ?
-
-        Durant ce workshop nous vous proposons de vous donner tous les éléments pour débuter votre voyage au sein de l’IA sans quitter votre langage de prédilection : Java, JavaScript, Python ou Go (et qui sait peut être d’autres surprises (wink)).
-
-        Vous apprendrez comment utiliser les Frameworks du moment (LangChain, LangChain4j, …) mais aussi les outils vous facilitant la vie pour que dès le retour à votre application préférée, intégrer de l’IA au sein de celle-ci ne soit plus une peur mais une action aussi simple que de rajouter une librairie tierce.
-
-        Et, toujours pour vous simplifier la vie, venez juste avec votre ordinateur et un navigateur Internet, je me charge du reste pour vous construire un environnement de développement aux petits oignons grâce aux CDE.
-      source: https://github.com/devrel-workshop/ai-as-lib-workshop
-      slides: https://docs.google.com/presentation/d/e/2PACX-1vTDc9BsSWwo2T8NgVw17_U8LwH6dc5Caa1AUwlzEF7FkK2BjlQr8BZW-oPHCmko48kMCQw0Ebary5KJ/pub
-
-- name: DevQuest
-  postDate: 2025-06-09
-  date: 5 juin 2025
-  talksUrl:  devquest-2025
-  excerpt: "Talk donné lors de DevQuest 2025"
-  categories: Conférences
-  tags:
-    - Slides
-    - Replays
-  talks:
-    - title: "JBang, un fichier Java pour les gouverner tous ?"
-      location: Niort (🇫🇷)
-      language: Français
-      date: Vendredi 6 juin 2025
-      time: 13h30 - 13h50
-      duration: 20mins
-      pitch: |
-        Dans le monde Java, nous sommes habitués à initialiser un projet avec de nombreux fichiers et répertoires. 
-        A tel point que des CLI ont vu le jour pour nous aider à créer les projets SpringBoot ou Quarkus par exemple. 
-        Vient ensuite le choix du "package manager" : Maven ou Gradle ? 
-        Et c'est seulement à partir de là que l'on peut commencer à développer puis exécuter son code 😅. 
-        Toutes ces étapes fastidieuses expliquent pourquoi, lorsque que l'on a besoin de faire un développement rapide de quelques lignes pour automatiser une action, on préfère d'autres langages à Java : Python par exemple. 
-        Et si je vous disais, qu'avec JBang, vous allez pouvoir rester avec votre langage préféré, Java, et développer une classe toute simple (avec des dépendances externes) en quelques secondes ! 
-        C'est le pari (spoiler : réussi) de JBang que je vous propose de découvrir durant une session de live coding. 
-        
-        A vous les joies du scripting en Java !
-      source: https://github.com/philippart-s/jbang
-      slides: https://philippart-s.github.io/talks-slides/jbang/devquest-niort-2025/
-      replay: https://youtu.be/AsyxQGMZI6A?si=-XMKkDKInZdBqtzb
-
-- name: Lava JUG
-  postDate: 2025-05-22
-  date: 22 mai 2025
-  talksUrl:  lava-jug-2025
-  excerpt: "Liste des talks donnés lors de Lava JUG 2025"
-  categories: Meetups
-  tags:
-    - Slides
-    - Replays
-  talks:
-    - title: "Crée ton assistant personnel avec Picocli et LangChain4J"
-      location: Clermont-Ferrand  (🇫🇷)
-      language: Français
-      date: Jeudi 22 mai 2025
+      date: Jeudi 12 décembre 2024
       time: 19h00 - 20h00
       duration: 1h
       pitch: |
         Les CLI (Command Line Interface), tout le monde les utilise et elles existent depuis la nuit des temps. 
-        Souvent synonymes de gain de productivité, leur création est parfois obscure et peut sembler complexe. 
+        Souvent synonyme de gain de productivité, leur création est parfois obscure et peut sembler complexe. 
+        C’était le cas il y a quelques décennies, mais depuis quelques années, des langages et Frameworks permettent d’en écrire simplement dans votre langage préféré. 
+        
+        Je vous propose d’utiliser un langage qui ne paraît pas, au premier abord, le plus intuitif pour faire une CLI : Java ! 
+        Mais il sera bien accompagné dans cette tâche : grâce à Picocli et Quarkus, notre CLI aura tout d’une grande, tout en étant simple à développer ! 
+        
+        Et cerise sur le gâteau : nous créerons un « vrai » exécutable grâce à Graal VM. 
+        Venez m’accompagner lors d’une session de live coding permettant de mettre en lumière comment créer une CLI en Java avec Picocli et Quarkus en partant de zéro !
+      source: https://github.com/philippart-s/jarvis/releases/tag/v2.2.0
+      slides: https://philippart-s.github.io/talks-slides/jarvis/bordeaux-jug-2024/
+      replay:
+
+- name: Apside Camp
+  postDate: 2024-11-12
+  date: 12 novembre 2024
+  talksUrl: apside-camp-2024
+  excerpt: "Liste des talks donnés lors de l'Apside Camp 2024"
+  categories: Conférences
+  tags:
+    - Slides
+    - Replays
+  talks:
+    - title: "‍💻 Utiliser l’IA aussi simplement qu’une librairie 🤖"
+      id: "ai-lib"
+      location: Saint-Pierre des Corps (🇫🇷)
+      language: Français
+      date: Mercredi 12 novembre 2024
+      time: 12h30 - 13h30
+      duration: 1h
+      pitch: |
+        L’intelligence artificielle commence à faire partie de nos vies personnelles mais aussi professionnelles. Si on commence à être habitué•es à les utiliser régulièrement il en est autrement pour ce qui concerne nos développements. Les intégrer peut nous paraître plus complexe que de les utiliser dans notre quotidien.
+        
+        Pourtant, les Larges Languages Models (LLM) ont apporté beaucoup de nouvelles possibilités et méritent qu’on s’y attarde.
+        
+        Et si nous pouvions les utiliser simplement comme n’importe quelle librairie de notre stack de développement préférée ?
+        
+        Je vous propose de découvrir qu’il est désormais possible, simplement, d’intégrer les LLM au sein de vos applications. Nous passerons par toutes les étapes afin que vous puissiez comprendre quelle approche vous convient le mieux. Customiser un prompt, rajouter vos données, mettre des filtres, …
+        
+        Ce sera aussi l’occasion pour vous de découvrir les projets Open Source du moment qui comptent avec LangChain et LangChain4j.
+        
+        A la suite de ce talk vous repartirez avec une boîte à outils vous permettant d’intégrer simplement la puissance des LLM au seins de vos développements de tous les jours.
+      source: https://github.com/philippart-s/ai-as-lib
+      slides: https://philippart-s.github.io/talks-slides/ai-as-lib/apside-camp-2024/
+      replay: https://youtu.be/B5Q1kL5ti20
+
+- name: Volcamp
+  postDate: 2024-10-10
+  date: 10 octobre 2024
+  talksUrl: volcamp-2024
+  excerpt: "Liste des talks donnés lors de Volcamp 2024"
+  categories: Conférences
+  tags:
+    - Slides
+    - Replays
+  talks:
+    - title: "Picocli, mets du Java dans ton terminal !"
+      id: "picocli"
+      location: Clermont-Ferrand  (🇫🇷)
+      language: Français
+      date: Jeudi 10 octobre 2024
+      time: 11h30 - 12h15
+      duration: 45 minutes
+      pitch: |
+        Les CLI (Command Line Interface), tout le monde les utilise et elles existent depuis la nuit des temps. 
+        Souvent synonyme de gain de productivité, leur création est parfois obscure et peut sembler complexe. 
         
         C’était le cas il y a quelques décennies, mais depuis quelques années, des langages et Frameworks permettent d’en écrire simplement dans votre langage préféré. 
         Je vous propose d’utiliser un langage qui ne paraît pas, au premier abord, le plus intuitif pour faire une CLI : Java ! 
         
         Mais il sera bien accompagné dans cette tâche : grâce à Picocli et Quarkus, notre CLI aura tout d’une grande, tout en étant simple à développer ! 
-        Et cerise sur le gâteau : nous créerons un “vrai” exécutable grâce à Graal VM. Venez m’accompagner lors d’une session de live coding permettant de mettre en lumière comment créer une CLI en Java avec Picocli et Quarkus en partant de zéro ! 
-        
-        Et qui sait, avec un peu de magie et de LangChain4j on aura, au final, un vrai assistant intelligent dans notre et terminal .
+        Et cerise sur le gâteau : nous créerons un « vrai » exécutable grâce à Graal VM. Venez m’accompagner lors d’une session de live coding permettant de mettre en lumière comment créer une CLI en Java avec Picocli et Quarkus en partant de zéro !
       source: https://github.com/philippart-s/jarvis
-      slides: https://philippart-s.github.io/talks-slides/jarvis/lavajug-2025/
+      slides: https://philippart-s.github.io/talks-slides/jarvis/volcamp-2024
+      replay: https://youtu.be/VsFhJuumQMo
 
-- name: Devoxx UK
-  postDate: 2025-05-07
-  date: 7 au 9 mai 2025
-  talksUrl:  devoxx-uk-2025
-  excerpt: "Liste des talks donnés lors de Devoxx UK 2025"
+- name: Riviera Dev
+  postDate: 2024-07-08
+  date: 8 au 10 juillet 2024
+  talksUrl: riviera-dev-2024
+  excerpt: "Liste des talks donnés lors de Riviera Dev 2024"
   categories: Conférences
   tags:
     - Slides
     - Replays
   talks:
-    - title: "Picocli: put some Java in your terminal 💻!"
-      location: Londres (🏴󠁧󠁢󠁥󠁮󠁧󠁿)
-      language: Anglais
-      date: Mercredi 7 mai 2025
-      time: 13h30 - 14h00
-      duration: 30 minutes
-      pitch: |
-        Everyone uses CLIs (Command Line Interfaces), and they’ve been around since the dawn of time. Often synonymous with productivity gains, their creation is sometimes obscure and can seem complex.
-
-        This was the case a few decades ago, but in recent years, languages and frameworks have made it possible to write them simply in your favorite language. I propose to use a language which, at first glance, may not seem the most intuitive for creating a CLI: Java!
-
-        Thanks to Picocli and Quarkus, your CLI will have all the bells and whistles of a great CLI, yet be simple to develop! And the icing on the cake: we’ll create a “real” executable thanks to Graal VM.
-
-        Come and join me for a live coding session that will show you how to create a Java CLI with Picocli and Quarkus from scratch!
-      source: https://github.com/philippart-s/jarvis
-      slides: https://philippart-s.github.io/talks-slides/jarvis/devoxx-uk-2025/
-      replay: https://youtu.be/L9XIBQ2XOBE
-
-- name: Devoxx France
-  postDate: 2025-04-16
-  date: 16 au 18 avril 2025
-  talksUrl:  devoxx-france-2025
-  excerpt: "Liste des talks donnés lors de Devoxx France 2025"
-  categories: Conférences
-  tags:
-    - Slides
-    - Replays
-  talks:
-    - title: ☕️ Full stack Java, du dev à la prod en passant par l’infra 🏗️
-      location: Paris (🇫🇷)
+    - title: "Picocli, mets du Java dans ton terminal !"
+      id: "picocli"
+      location: Sophia Antipolis (🇫🇷)
       language: Français
-      date: Mercredi 16 avril 2025
-      time: 13h30 - 16h30
-      duration: 3 heures
+      date: mardi 9 juillet 2024
+      time: 17h45 - 18h10
+      duration: 25 minutes
       pitch: |
-        Depuis quelques années, le terme full stack est employé pour décrire différentes notions : que ce soit dans différents langages ou avec le même, il désigne la maîtrise de toutes les couches nécessaires à la création de nos applications.
+        Les CLI (Command Line Interface), tout le monde les utilise et elles existent depuis la nuit des temps. 
+        Souvent synonyme de gain de productivité, leur création est parfois obscure et peut sembler complexe. 
         
-        Que diriez-vous d'explorer le concept full stack encore plus loin ?
-
-        Nous n'allons pas nous contenter d'être full stack pour le front ou le back end mais pour l'ensemble de notre écosystème technique ! On parlera ici de développement bien sûr (back, front, cli, ...), de cloud natif (Kubernetes, serverless, ...), de livraison et déploiements continus, bien sûr d'intelligence artificielle (comment faire autrement en 2025 😉) mais aussi d'infrastructure !
-
-        Et avec quel langage peut-on se permettre de faire tout ça me direz-vous ?
-
-        Mais Java bien sûr 🥳.
-
-        Je souhaite vous montrer que Java n'est pas le langage si obsolète et qu'il a bien suivi les différentes évolutions de notre écosystème pour être présent dans bien des étapes de la chaîne de conception d'une application, et pas que pour le développement 😉.
-
-        A la sortie de ce talk, vous aussi serez un•e vrai•e Java full stack ! 💪
-      source: https://github.com/philippart-s/java-full-stack
-      slides: https://philippart-s.github.io/talks-slides/java-full-stack/devoxx-fr-2025/
-      replay: https://youtu.be/34BxbPEtPkA?si=yNx_WZheyafzhToI
-
-    - title: JBang, un fichier Java pour les gouverner tous ?
-      location: Paris (🇫🇷)
-      language: Français
-      date: Jeudi 17 avril 2025
-      time: 12h35 - 12h50
-      duration: 15 minutes
-      pitch: |
-        Dans le monde Java, nous sommes habitués à initialiser un projet avec de nombreux fichiers et répertoires. A tel point que des CLI ont vu le jour pour nous aider à créer les projets SpringBoot ou Quarkus par exemple. Vient ensuite le choix du "package manager" : Maven ou Gradle ? Et c'est seulement à partir de là que l'on peut commencer à développer puis exécuter son code 😅.
-
-        Toutes ces étapes fastidieuses expliquent pourquoi, lorsque que l'on a besoin de faire un développement rapide de quelques lignes pour automatiser une action, on préfère d'autres langages à Java : Python par exemple.
-
-        Et si je vous disais, qu'avec JBang, vous allez pouvoir rester avec votre langage préféré, Java, et développer une classe toute simple (avec des dépendances externes) en quelques secondes !
-
-        C'est le pari (spoiler : réussi) de JBang que je vous propose de découvrir durant une session de live coding.
-
-        A vous les joies du scripting en Java !
-      source: https://github.com/philippart-s/jbang
-      slides: https://philippart-s.github.io/talks-slides/java-full-stack/devoxx-fr-2025/
-      replay: https://youtu.be/eHTDiYFtuI8?si=NtZIz4hqVDnhAfUe
-
-    - title: Continuer les meetups ? mais quelle drôle d'idée !
-      location: Paris (🇫🇷)
-      language: Français
-      date: Jeudi 17 avril 2025
-      time: 19h00 - 20h00
-      duration: 1 heure
-      pitch: |
-        Le meetup TADx est de retour cette année au BOF à Devoxx pour continuer nos échanges entre meetups de tous horizons !
-        Si l'année dernière, nous avons pu aborder les thèmes des débuts d'une aventure en meetup (sa création, son intégration, son financement, ses premiers aléas...) nous vous proposons cette année d'aller un peu plus loin dans les discussions, en abordant notamment la pérennisation d'une communauté tech au sens large :
-
-          - Quand, pourquoi et comment se renouveler ?
-          - Comment trouver des speakers inspirants et des sujets pertinents ?
-          - Comment fidéliser les participant·es ?
-          - Comment élargir l'impact d'un meetup local en lien avec d'autres communautés tech ?
-          - Comment optimiser la qualité des évènements dans un contexte financièrement restreint ?
-          - Quelles sont les expériences speaker et participant·es idéales ?
-
-        Ce sera l'occasion pour vous, organisateurs ou organisatrices de meetup, de conférences, participant·es régulier·es ou juste curieux·ses, de revenir sur l'année 2024 et d'échanger sur vos réussites, vos écueils et vos questions dans ce BOF garanti plein d'anecdotes et d'idées à tester pour faire continuer de battre le cœur des communautés tech !
-      slides:
-      source:
+        C’était le cas il y a quelques décennies, mais depuis quelques années, des langages et Frameworks permettent d’en écrire simplement dans votre langage préféré. 
+        Je vous propose d’utiliser un langage qui ne paraît pas, au premier abord, le plus intuitif pour faire une CLI : Java ! 
+        
+        Mais il sera bien accompagné dans cette tâche : grâce à Picocli et Quarkus, notre CLI aura tout d’une grande, tout en étant simple à développer ! 
+        Et cerise sur le gâteau : nous créerons un « vrai » exécutable grâce à Graal VM. Venez m’accompagner lors d’une session de live coding permettant de mettre en lumière comment créer une CLI en Java avec Picocli et Quarkus en partant de zéro !
+      source: https://github.com/philippart-s/jarvis
+      slides: https://philippart-s.github.io/talks-slides/jarvis/riviera-dev-2024/
       replay:
 
-- name: Confoo
-  postDate: 2025-02-26
-  date: 26 au 28 février 2025
-  talksUrl: confoo-2025
-  excerpt: "Liste des talks donnés lors de Confoo 2025"
+    - title: "Viens dompter ta première IA en Python"
+      id: "ai-101-workshop"
+      location: Sophia Antipolis (🇫🇷)
+      language: Français
+      date: lundi 8 juillet 2024
+      time: 14h00 - 17h00
+      duration: 3 heures
+      pitch: |
+        L'IA est partout, du moins tout le monde revendique d'avoir de l'IA dans ses applications, ses objets connectés, …
+        En parler c'est bien, la développer c'est encore mieux.
+        
+        Après une introduction aux concepts qui gravitent autour de l'IA mais aussi à l'écosystème Python nous vous proposons de customiser le modèle YOLO afin d'optimiser sa détection d'objets dans des images.
+        Pas besoin d'être experte ou expert Python, ni Data Scientist ou Machine Learning engineer, l'objectif ici est de découvrir tranquillement toutes ces notions.
+        
+        Et cerise sur le gâteau, venez juste avec votre navigateur, on se charge du reste grâce à GitPod.
+        Vous découvrirez la magie d'un IDE dans le cloud.
+        
+        Arrivés en débutantes, débutants ou justes curieuses et curieux, vous repartirez en sachant customiser de A à Z un modèle d'IA et créer son application l'utilisant.
+      source: https://github.com/devrel-workshop/101-AI-and-py
+      slides: https://docs.google.com/presentation/d/1WEci3-E0R9WI0pKocBnKyDRuyVnCSImkRSt0x-dh0VQ/
+      replay:
+
+- name: Voxxed Days Luxembourg
+  postDate: 2024-06-20
+  date: 20 & 21 juin 2024
+  talksUrl: voxxed-days-lux-2024
+  excerpt: "Liste des talks donnés lors de Voxxed Days Lux 2024"
+  categories: Conférences
+  tags:
+    - Slides
+    - Replays
+  talks:
+    - title: "Picocli, mets du Java dans ton terminal !"
+      id: "picocli"
+      location: Luxembourg (🇱🇺)
+      language: Français
+      date: mardi 20 juin 2024
+      time:
+      duration: 25 minutes
+      pitch: |
+        Les CLI (Command Line Interface), tout le monde les utilise et elles existent depuis la nuit des temps. 
+        Souvent synonyme de gain de productivité, leur création est parfois obscure et peut sembler complexe. 
+        
+        C’était le cas il y a quelques décennies, mais depuis quelques années, des langages et Frameworks permettent d’en écrire simplement dans votre langage préféré. 
+        Je vous propose d’utiliser un langage qui ne paraît pas, au premier abord, le plus intuitif pour faire une CLI : Java ! 
+        
+        Mais il sera bien accompagné dans cette tâche : grâce à Picocli et Quarkus, notre CLI aura tout d’une grande, tout en étant simple à développer ! 
+        Et cerise sur le gâteau : nous créerons un « vrai » exécutable grâce à Graal VM. Venez m’accompagner lors d’une session de live coding permettant de mettre en lumière comment créer une CLI en Java avec Picocli et Quarkus en partant de zéro !
+      source: https://github.com/philippart-s/jarvis
+      slides: https://philippart-s.github.io/talks-slides/jarvis/voxxed-days-lux-2024/
+      replay: https://youtu.be/bLJ0QujwNZw
+
+    - title: "Viens dompter ta première IA en Python"
+      id: "ai-101-workshop"
+      location: Luxembourg (🇱🇺)
+      language: Français
+      date: mercredi 21 juin 2024
+      time:
+      duration: 2 heures
+      pitch: |
+        L'IA est partout, du moins tout le monde revendique d'avoir de l'IA dans ses applications, ses objets connectés, …
+        En parler c'est bien, la développer c'est encore mieux.
+        
+        Après une introduction aux concepts qui gravitent autour de l'IA mais aussi à l'écosystème Python nous vous proposons de customiser le modèle YOLO afin d'optimiser sa détection d'objets dans des images.
+        Pas besoin d'être experte ou expert Python, ni Data Scientist ou Machine Learning engineer, l'objectif ici est de découvrir tranquillement toutes ces notions.
+        
+        Et cerise sur le gâteau, venez juste avec votre navigateur, on se charge du reste grâce à GitPod.
+        Vous découvrirez la magie d'un IDE dans le cloud.
+        
+        Arrivés en débutantes, débutants ou justes curieuses et curieux, vous repartirez en sachant customiser de A à Z un modèle d'IA et créer son application l'utilisant.
+      source: https://github.com/devrel-workshop/101-AI-and-py
+      slides: https://docs.google.com/presentation/d/e/2PACX-1vRxuy1RjdVH3LHeS3alNHmS0EN4rBa1WBEMXCuv3XxWXgkrlHH6HBLsELgTq8SKQnu821FiNNx_A3OM/pub
+      replay: https://youtu.be/D4bWMjX7zCk
+
+- name: CNCF Lorient
+  postDate: 2024-05-20
+  date: 20 mai 2024
+  talksUrl: cncf-lorient-2024
+  excerpt: "Talk donné lors du CNCF Lorient 2024"
+  categories: Meetup
+  tags:
+    - Slides
+    - Replays
+  talks:
+    - title: "L’intelligence artificielle expliquée en 30 minutes !"
+      id: "ai-explain"
+      location: Lorient (🇫🇷)
+      language: Français
+      date: mardi 20 mai 2024
+      time:
+      duration: 30 minutes
+      pitch: |
+        … Ou comment en tant que dev faire de l’IA sans être Data Scientist ? L’IA est partout, du moins tout le monde revendique d’avoir de l’IA dans ses applications, ses objets connectés, …
+        
+        Oui mais voilà, au final c’est quoi l’Intelligence Artificielle et qu’y a-t-il de caché derrière ce terme ? Comment expliquer simplement les notions techniques impliquées ? La grande IA va-t-elle gouverner le monde ?
+        
+        Durant ce talk je vous propose de découvrir simplement, mais de manière la plus exhaustive possible, avec ma vision de développeur, ce qu’est l’intelligence artificielle et quelles technologies sont utilisées dans ce milieu.
+        
+        Et tout ça en 30 minutes !
+      slides: https://philippart-s.github.io/talks-slides/ai-in-few-minutes/cncf-lorient-2024/
+      replay:
+      source:
+
+- name: Devoxx France
+  postDate: 2024-04-16
+  date: 16 au 18 avril 2024
+  talksUrl:  devoxx-fr-2024
+  excerpt: "Liste des talks donnés lors de Devoxx France 2024"
   categories: Conférences
   tags:
     - Slides
     - Replays
   talks:
     - title: Picocli, mets du Java dans ton terminal !
-      location: Montréal (🇨🇦)
+      id: "picocli"
+      location: Paris (🇫🇷)
       language: Français
-      date: Vendredi 28 février 2025
-      time: 9h00 - 9h45
-      duration: 45 mins
+      date: Mercredi 16 avril 2024
+      time:
+      duration: 30 mins
       pitch: |
-        Les CLI (Command Line Interface), tout le monde les utilise et elles existent depuis la nuit des temps.
+        Les CLI (Command Line Interface), tout le monde les utilise et elles existent depuis la nuit des temps. 
+        Souvent synonyme de gain de productivité, leur création est parfois obscure et peut sembler complexe. 
         
-        Je vous propose d'utiliser un langage qui ne paraît pas, au premier abord, le plus intuitif pour faire une CLI : Java !
+        C’était le cas il y a quelques décennies, mais depuis quelques années, des langages et Frameworks permettent d’en écrire simplement dans votre langage préféré. 
+        Je vous propose d’utiliser un langage qui ne paraît pas, au premier abord, le plus intuitif pour faire une CLI : Java ! 
         
-        Venez m'accompagner lors d'une session de live coding permettant de mettre en lumière comment créer une CLI en Java avec Picocli et Quarkus en partant de zéro !
+        Mais il sera bien accompagné dans cette tâche : grâce à Picocli et Quarkus, notre CLI aura tout d’une grande, tout en étant simple à développer ! 
+        Et cerise sur le gâteau : nous créerons un « vrai » exécutable grâce à Graal VM. Venez m’accompagner lors d’une session de live coding permettant de mettre en lumière comment créer une CLI en Java avec Picocli et Quarkus en partant de zéro !
       source: https://github.com/philippart-s/jarvis
-      slides: https://philippart-s.github.io/talks-slides/jarvis/confoo-2025/
-      replay:
+      slides: https://philippart-s.github.io/talks-slides/jarvis/devoxx-fr-2024/
+      replay: https://youtu.be/UkogP588w7M
 
-    - title: Utiliser un LLM aussi simplement qu'une librairie
-      location: Montréal (🇨🇦)
+    - title: "Viens dompter ta première IA en Python"
+      id: "ai-101-workshop"
+      location: Paris (🇫🇷)
       language: Français
-      date: Mercredi 26 avril 2025
-      time: 9h00 - 9h45
-      duration: 45 mins
+      date: Mercredi 16 avril 2024
+      time:
+      duration: 3 heures
       pitch: |
-        Et si nous pouvions utiliser les LLM aussi simplement que n'importe quelle librairie de notre stack de développement préférée ?
-        
-        Je vous propose de découvrir qu'il est désormais possible, simplement, d'intégrer les LLM au sein de vos applications.
-        
-        Nous passerons par toutes les étapes afin que vous puissiez comprendre quelle approche vous convient le mieux.
-        Customiser un prompt, rajouter vos données, mettre des filtres, ...
-      source: https://github.com/philippart-s/ai-as-lib
-      slides: https://philippart-s.github.io/talks-slides/ai-as-lib/confoo-2025/
+        L'IA est partout, du moins tout le monde revendique d'avoir de l'IA dans ses applications, ses objets connectés, …
+        En parler c'est bien, la développer c'est encore mieux.
+
+        Après une introduction aux concepts qui gravitent autour de l'IA mais aussi à l'écosystème Python nous vous proposons de customiser le modèle YOLO afin d'optimiser sa détection d'objets dans des images.
+        Pas besoin d'être experte ou expert Python, ni Data Scientist ou Machine Learning engineer, l'objectif ici est de découvrir tranquillement toutes ces notions.
+
+        Et cerise sur le gâteau, venez juste avec votre navigateur, on se charge du reste grâce à GitPod.
+        Vous découvrirez la magie d'un IDE dans le cloud.
+
+        Arrivés en débutantes, débutants ou justes curieuses et curieux, vous repartirez en sachant customiser de A à Z un modèle d'IA et créer son application l'utilisant.
+      source: https://github.com/devrel-workshop/101-AI-and-py
+      slides: https://www.canva.com/design/DAF9cbnB8Ec/tCaGhO-xiDkGGsIhS16xzg/
       replay:
 
 - name: Snowcamp
-  postDate: 2025-01-22
-  date: 22 au 25 janvier 2025
-  talksUrl: snowcamp-2025
-  excerpt: "Liste des talks donnés lors de Devoxx France 2025"
+  postDate: 2024-01-31
+  date: 31 janvier au 2 février 2024
+  talksUrl:  snowcamp-2024
+  excerpt: "Liste des talks donnés lors de Snowcamp 2024"
   categories: Conférences
   tags:
     - Slides
     - Replays
   talks:
-    - title: "Développer avec l’IA : et si c’était aussi simple qu’ajouter une librairie ?"
+    - title: Picocli, mets du Java dans ton terminal !
+      id: "picocli"
       location: Grenoble (🇫🇷)
       language: Français
-      date: Mercredi 22 janvier 2025
-      time: 14h00 - 17h00
-      duration: 3h mins
+      date: Jeudi 1 février 2024
+      time:
+      duration: 30 mins
       pitch: |
-        L’intelligence artificielle et les LLM commencent à faire partie de nos vies personnelles mais aussi professionnelles.
+        Les CLI (Command Line Interface), tout le monde les utilise et elles existent depuis la nuit des temps. 
+        Souvent synonyme de gain de productivité, leur création est parfois obscure et peut sembler complexe. 
         
-        Si on est habitué•es à les utiliser régulièrement, il en est autrement pour ce qui concerne nos développements.
+        C’était le cas il y a quelques décennies, mais depuis quelques années, des langages et Frameworks permettent d’en écrire simplement dans votre langage préféré. 
+        Je vous propose d’utiliser un langage qui ne paraît pas, au premier abord, le plus intuitif pour faire une CLI : Java ! 
         
-        Les intégrer peut nous paraître plus complexe que de les utiliser dans notre quotidien.
-        
-        Dois-je apprendre un nouveau langage ou une nouvelle stack ?
-        
-        Durant ce workshop nous vous proposons de vous donner tous les éléments pour débuter votre voyage au sein de l’IA sans quitter votre langage de prédilection : Java, JavaScript, Python ou Go (et qui sait peut être d’autres surprises (wink)).
-        
-        Vous apprendrez comment utiliser les Frameworks du moment (LangChain, LangChain4j, …) mais aussi les outils vous facilitant la vie (Ollama, …) pour que dès le retour à votre application préférée, intégrer de l’IA au sein de celle-ci ne soit plus une peur mais une action aussi simple que de rajouter une librairie tierce.
-        
-        Et, toujours pour vous simplifier la vie, venez juste avec votre ordinateur et un navigateur Internet, on se charge du reste pour vous construire un environnement de développement aux petits oignons grâce aux CDE.
-      source: https://github.com/devrel-workshop/ai-as-lib-workshop
-      slides: https://docs.google.com/presentation/d/e/2PACX-1vRgA5HVbBViro5I0kfW0bbqbhfAFj-jXpKqYp-DXTwPnalyB3YtrHEshCZDBE-is64J_H4qrWkLaz-L/pub
+        Mais il sera bien accompagné dans cette tâche : grâce à Picocli et Quarkus, notre CLI aura tout d’une grande, tout en étant simple à développer ! 
+        Et cerise sur le gâteau : nous créerons un « vrai » exécutable grâce à Graal VM. Venez m’accompagner lors d’une session de live coding permettant de mettre en lumière comment créer une CLI en Java avec Picocli et Quarkus en partant de zéro !
+      source: https://github.com/philippart-s/jarvis
+      slides: https://philippart-s.github.io/talks-slides/jarvis/snowcamp-2024/
+      replay:
+
+    - title: "Viens dompter ta première IA en Python"
+      id: "ai-101-workshop"
+      location: Grenoble (🇫🇷)
+      language: Français
+      date: Mercredi 31 janvier 2024
+      time:
+      duration: 3 heures
+      pitch: |
+        L'IA est partout, du moins tout le monde revendique d'avoir de l'IA dans ses applications, ses objets connectés, …
+        En parler c'est bien, la développer c'est encore mieux.
+
+        Après une introduction aux concepts qui gravitent autour de l'IA mais aussi à l'écosystème Python nous vous proposons de customiser le modèle YOLO afin d'optimiser sa détection d'objets dans des images.
+        Pas besoin d'être experte ou expert Python, ni Data Scientist ou Machine Learning engineer, l'objectif ici est de découvrir tranquillement toutes ces notions.
+
+        Et cerise sur le gâteau, venez juste avec votre navigateur, on se charge du reste grâce à GitPod.
+        Vous découvrirez la magie d'un IDE dans le cloud.
+
+        Arrivés en débutantes, débutants ou justes curieuses et curieux, vous repartirez en sachant customiser de A à Z un modèle d'IA et créer son application l'utilisant.
+      source: https://github.com/devrel-workshop/101-AI-and-py
+      slides: https://docs.google.com/presentation/d/e/2PACX-1vQw8ak85UY_U6uLaHC1R16UkxKybawQDMsQosVBlBLoK3ZsCf07t6zozCskjyc1GCxRyZRbtgwBWmJF/pub
       replay:

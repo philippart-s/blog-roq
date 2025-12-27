@@ -51,9 +51,9 @@
       replay: ""
 
 - name: BDX I/O
-  postDate: 2025-11-7
+  postDate: 2025-11-07
   date: 7 novembre 2025
-  talksUrl:  bdx-io-2025
+  talksUrl: bdx-io-2025
   excerpt: "Talk donné lors de BDX I/O 2025"
   categories: Conférences
   tags:
@@ -61,6 +61,7 @@
     - Replays
   talks:
     - title: "JBang, un fichier Java pour les gouverner tous ?"
+      id: "jbang"
       location: BDX I/O (🇫🇷)
       language: Français
       date: Vendredi 7 novembre 2025
@@ -91,6 +92,7 @@
     - Replays
   talks:
     - title: "JBang, un fichier Java pour les gouverner tous ?"
+      id: "jbang"
       location: Nantes (🇫🇷)
       language: Français
       date: Vendredi 18 octobre 2025
@@ -121,6 +123,7 @@
     - Replays
   talks:
     - title: "Picocli: put some Java in your terminal 💻!"
+      id: "picocli"
       location: Anvers (🇧🇪)
       language: Anglais
       date: lundi 6 octobre 2025
@@ -149,7 +152,7 @@
     - Replays
   talks:
     - title: "☕️ Picocli : mets du Java dans ton terminal ! 🖥️"
-      id: picocli
+      id: "picocli"
       location: La Rochelle (🇫🇷)
       language: Français
       date: Vendredi 5 septembre 2025
@@ -174,7 +177,7 @@
 - name: Sunny Tech
   postDate: 2025-07-13
   date: 26 juin 2025
-  talksUrl:  sunnytech-2025
+  talksUrl: sunnytech-2025
   excerpt: "Talk donné lors de Sunny Tech 2025"
   categories: Conférences
   tags:
@@ -182,6 +185,7 @@
     - Replays
   talks:
     - title: "Développer avec l'IA : et si c'était aussi simple qu'ajouter une librairie ?"
+      id: "ai-lib-workshop"
       location: Montpellier (🇫🇷)
       language: Français
       date: Jeudi 26 juin 2025
@@ -203,6 +207,7 @@
         Et, toujours pour vous simplifier la vie, venez juste avec votre ordinateur et un navigateur Internet, je me charge du reste pour vous construire un environnement de développement aux petits oignons grâce aux CDE.
       source: https://github.com/devrel-workshop/ai-as-lib-workshop
       slides: https://docs.google.com/presentation/d/e/2PACX-1vTDc9BsSWwo2T8NgVw17_U8LwH6dc5Caa1AUwlzEF7FkK2BjlQr8BZW-oPHCmko48kMCQw0Ebary5KJ/pub
+      replay:
 
 - name: DevQuest
   postDate: 2025-06-09
@@ -215,6 +220,7 @@
     - Replays
   talks:
     - title: "JBang, un fichier Java pour les gouverner tous ?"
+      id: "jbang"
       location: Niort (🇫🇷)
       language: Français
       date: Vendredi 6 juin 2025
@@ -245,6 +251,7 @@
     - Replays
   talks:
     - title: "Crée ton assistant personnel avec Picocli et LangChain4J"
+      id: "picocli"
       location: Clermont-Ferrand  (🇫🇷)
       language: Français
       date: Jeudi 22 mai 2025
@@ -263,6 +270,7 @@
         Et qui sait, avec un peu de magie et de LangChain4j on aura, au final, un vrai assistant intelligent dans notre et terminal .
       source: https://github.com/philippart-s/jarvis
       slides: https://philippart-s.github.io/talks-slides/jarvis/lavajug-2025/
+      replay:
 
 - name: Devoxx UK
   postDate: 2025-05-07
@@ -275,6 +283,7 @@
     - Replays
   talks:
     - title: "Picocli: put some Java in your terminal 💻!"
+      id: "picocli"
       location: Londres (🏴󠁧󠁢󠁥󠁮󠁧󠁿)
       language: Anglais
       date: Mercredi 7 mai 2025
@@ -303,6 +312,7 @@
     - Replays
   talks:
     - title: ☕️ Full stack Java, du dev à la prod en passant par l’infra 🏗️
+      id: "full-stack-java"
       location: Paris (🇫🇷)
       language: Français
       date: Mercredi 16 avril 2025
@@ -327,6 +337,7 @@
       replay: https://youtu.be/34BxbPEtPkA?si=yNx_WZheyafzhToI
 
     - title: JBang, un fichier Java pour les gouverner tous ?
+      id: "jbang"
       location: Paris (🇫🇷)
       language: Français
       date: Jeudi 17 avril 2025
@@ -347,6 +358,7 @@
       replay: https://youtu.be/eHTDiYFtuI8?si=NtZIz4hqVDnhAfUe
 
     - title: Continuer les meetups ? mais quelle drôle d'idée !
+      id: "meetup"
       location: Paris (🇫🇷)
       language: Français
       date: Jeudi 17 avril 2025
@@ -379,6 +391,7 @@
     - Replays
   talks:
     - title: Picocli, mets du Java dans ton terminal !
+      id: "picocli"
       location: Montréal (🇨🇦)
       language: Français
       date: Vendredi 28 février 2025
@@ -395,6 +408,7 @@
       replay:
 
     - title: Utiliser un LLM aussi simplement qu'une librairie
+      id: "ai-lib"
       location: Montréal (🇨🇦)
       language: Français
       date: Mercredi 26 avril 2025
@@ -415,13 +429,14 @@
   postDate: 2025-01-22
   date: 22 au 25 janvier 2025
   talksUrl: snowcamp-2025
-  excerpt: "Liste des talks donnés lors de Devoxx France 2025"
+  excerpt: "Liste des talks donnés lors de Snowcamp 2025"
   categories: Conférences
   tags:
     - Slides
     - Replays
   talks:
     - title: "Développer avec l’IA : et si c’était aussi simple qu’ajouter une librairie ?"
+      id: "ai-lib-workshop"
       location: Grenoble (🇫🇷)
       language: Français
       date: Mercredi 22 janvier 2025
