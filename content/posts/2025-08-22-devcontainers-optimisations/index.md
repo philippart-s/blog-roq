@@ -3,7 +3,7 @@ title: "⚡️ Optimiser les Dev Containers 🐳"
 description: "Accélérer et spécialiser les dev containers 🎯"
 tags: Code, Docker, IDE
 image: image-illustration.jpg
-figCaption: <a href="https://twitter.com/wildagsx">@wildagsx</a>
+figCaption: "@wildagsx"
 author: wilda
 ---
 
