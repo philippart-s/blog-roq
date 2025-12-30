@@ -1,21 +1,23 @@
 ---
 title: "⚡️ Optimiser les Dev Containers 🐳"
 description: "Accélérer et spécialiser les dev containers 🎯"
-tags: Code, Docker, IDE
+link: /2025-08-22-devcontainers-optimisations
+tags: 
+  - DevContainers
 image: image-illustration.jpg
 figCaption: "@wildagsx"
 author: wilda
 ---
 
 > **TL;DR**  
-> Cet article est la troisième partie de la série d'articles sur les Dev Containers, je vous conseille de lire les premiers articles [🧑‍💻 A la découverte des Dev Containers 🐳]({site.document('posts/2025-01-12-discover-devcontainers.md')}) et [🧑‍💻 Aller plus loin avec les Dev Containers 🐳]({site.document('posts/2025-01-28-devcontainers-advanced')}) avant de lire celui-ci.  
+> Cet article est la troisième partie de la série d'articles sur les Dev Containers, je vous conseille de lire les premiers articles [🧑‍💻 A la découverte des Dev Containers 🐳](2025-01-12-discover-devcontainers) et [🧑‍💻 Aller plus loin avec les Dev Containers 🐳](2025-01-28-devcontainers-advanced) avant de lire celui-ci.  
 > L'ensemble des exemples et des définitions des images pour les dev containers se trouvent dans le repository [bear-corp/the-cave](https://github.com/bear-corp/the-cave).
 
 Si vous avez débuté votre voyage dans les dev containers, que ce soit en me lisant ou par votre propre envie, vous êtes certainement arrivé•es à la même conclusion que moi : les dev containers c'est bien, mais niveau performances cela peut, parfois, ne pas être top.
 
 En effet, pour moi, il y a deux problèmes majeurs en utilisant les templates et autres features dans un `devcontainer.json` :
-- la taille des images construites, on verra que l'on ne peut pas faire de magie mais quand même on peut tenter de faire maigrir notre baleine 🐳
-- le temps de build des images lors de modifications ou pour démarrer un nouvel environnement.
+ - la taille des images construites, on verra que l'on ne peut pas faire de magie mais quand même on peut tenter de faire maigrir notre baleine 🐳
+ - le temps de build des images lors de modifications ou pour démarrer un nouvel environnement.
 
 C'est principalement le deuxième point qui va m’intéresser : l'optimisation de l'image utilisée pour mon environnement de dev et sa distribution.
 
@@ -24,9 +26,9 @@ C'est principalement le deuxième point qui va m’intéresser : l'optimisation 
 # 🏗️ L'approche "prebuilds"
 
 Vous trouverez une explication de ce qui se cache derrière le terme *prebuilds* sur le site des dev containers dans le guide [Speed Up Your Workflow with Prebuilds](https://containers.dev/guide/prebuild).  
-Pour résumer ce que c'est en quelques mots :
-- l'objectif est de créer une image avec l'ensemble des configurations dont vous avez besoin pour vous éviter de devoir builder à chaque fois votre image
-- un autre gain : commencer à optimiser votre image en créant des images depuis un Dockerfile ou en utilisant Docker Compose. Cette étape n'est pas obligatoire comme on le verra 😉.
+Pour résumer ce que c'est en quelques mots : 
+ - l'objectif est de créer une image avec l'ensemble des configurations dont vous avez besoin pour vous éviter de devoir builder à chaque fois votre image
+ - un autre gain : commencer à optimiser votre image en créant des images depuis un Dockerfile ou en utilisant Docker Compose. Cette étape n'est pas obligatoire comme on le verra 😉.
 
 > 💡 On retrouve la notion de prebuilds aussi dans les CDE comme Codespaces, GitPod ou encore Coders. Ce qui n'est pas étonnant puisque ils sont tous compatibles dev containers 😉.
 
@@ -54,10 +56,10 @@ RUN git clone https://github.com/spaceship-prompt/spaceship-prompt.git "$ZSH_CUS
 RUN ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
 ```
 
-Quelques explications s'imposent je pense 😉 :
-- la ligne 1 correspond à l'image de base que je vais utiliser. Il y a un repository qui permet d'avoir la liste des images utilisées dans les templates : [devcontainers/images](https://github.com/devcontainers/images). Et dans ce repository vous avez la liste de toutes les base images utilisées dans les templates (elles commencent par `base-`). Dans mon cas j'ai choisi Ubuntu car c'est la distribution Linux que je "connais" le mieux 😅.
-- la ligne 3 me permet de positionner l'utilisateur qui sera l'utilisateur du container une fois lancé.
-- ensuite le reste des lignes me permet d'installer [Zsh](https://www.zsh.org/) + [Oh My Zsh](). Je n'ai pas utilisé la [feature existante](https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-ohmyzsh) car je voulais pouvoir pré-configurer des éléments dans un `.zshrc` et avoir le choix des plugins et thèmes à utiliser.
+Quelques explications s'imposent je pense 😉 : 
+ - la ligne 1 correspond à l'image de base que je vais utiliser. Il y a un repository qui permet d'avoir la liste des images utilisées dans les templates : [devcontainers/images](https://github.com/devcontainers/images). Et dans ce repository vous avez la liste de toutes les base images utilisées dans les templates (elles commencent par `base-`). Dans mon cas j'ai choisi Ubuntu car c'est la distribution Linux que je "connais" le mieux 😅.
+  - la ligne 3 me permet de positionner l'utilisateur qui sera l'utilisateur du container une fois lancé.
+  - ensuite le reste des lignes me permet d'installer [Zsh](https://www.zsh.org/) + [Oh My Zsh](). Je n'ai pas utilisé la [feature existante](https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-ohmyzsh) car je voulais pouvoir pré-configurer des éléments dans un `.zshrc` et avoir le choix des plugins et thèmes à utiliser.
 
 > 💡 Je ne suis pas un expert Docker et Linux, il y a moyen d'optimiser ces Dockerfiles et d'utiliser Docker Compose pour celles et ceux qui excellent dans ce domaine 😉.
 
@@ -90,14 +92,14 @@ Une fois que j'ai ce Dockerfile il ne me reste plus qu'à créer mon fichier [de
 
 Bon, j'ai quelques explications à donner 😅.
 
-- les lignes 2 à 5 sont la partie construction du l'image à partir du Dockerfile précédemment créé.
-    - la ligne 7 est l'installation d'un outil que j'adore : [bat](https://github.com/sharkdp/bat), c'est un remplaçant de *cat* mais plus optimisé (merci Philippe Charrière pour la découverte 😘)
-    - la ligne 8 est l'installation de la feature me permettant de faire du Docker dans un container. J'en ai besoin pour créer les images de me dev containers (si vous regardez la configuration du projet elle utilise ce template) mais aussi pour mes devs Java avec Quarkus ou Kubernetes.
-    - à partir de la ligne 10 ce sont des astuces pour gérer mon historique de commandes zsh qui va être utilisable avec le plugin Oh My Zsh [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) dont je ne peux plus me passer 😉. Par défaut, étant dans un container, à chaque fois que j'arrête le container, je perds mon historique de commandes. Là je vais le persister sur la machine hôte et le partager avec l'ensemble de mes containers pour en bénéficier partout:
-        - la ligne 10 est le mount du volume Docker `zsh-history` avec un répertoire dans mon container qui va stocker mon historique (il n'est pas possible de créer un volume Docker vers autre chose qu'un répertoire).
-          > 💡 cela implique donc qu'au préalable il faut créer un volume Docker: `docker volume create --name zsh-history`
-            - la ligne 14 permet d'indiquer à Zsh le nouveau répertoire qui va stocker les historiques de commandes
-            - la ligne 17 me permet de rendre le répertoire accessible en écriture au user `vscode` utilisé dans le container
+  - les lignes 2 à 5 sont la partie construction du l'image à partir du Dockerfile précédemment créé.
+	- la ligne 7 est l'installation d'un outil que j'adore : [bat](https://github.com/sharkdp/bat), c'est un remplaçant de *cat* mais plus optimisé (merci Philippe Charrière pour la découverte 😘)
+	- la ligne 8 est l'installation de la feature me permettant de faire du Docker dans un container. J'en ai besoin pour créer les images de me dev containers (si vous regardez la configuration du projet elle utilise ce template) mais aussi pour mes devs Java avec Quarkus ou Kubernetes.
+	- à partir de la ligne 10 ce sont des astuces pour gérer mon historique de commandes zsh qui va être utilisable avec le plugin Oh My Zsh [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) dont je ne peux plus me passer 😉. Par défaut, étant dans un container, à chaque fois que j'arrête le container, je perds mon historique de commandes. Là je vais le persister sur la machine hôte et le partager avec l'ensemble de mes containers pour en bénéficier partout: 
+	   - la ligne 10 est le mount du volume Docker `zsh-history` avec un répertoire dans mon container qui va stocker mon historique (il n'est pas possible de créer un volume Docker vers autre chose qu'un répertoire). 
+		 > 💡 cela implique donc qu'au préalable il faut créer un volume Docker: `docker volume create --name zsh-history`
+		 - la ligne 14 permet d'indiquer à Zsh le nouveau répertoire qui va stocker les historiques de commandes
+		 - la ligne 17 me permet de rendre le répertoire accessible en écriture au user `vscode` utilisé dans le container
 
 Vous allez me dire beaucoup de choses pour juste un historique de commandes ? C'est pas faux mais on ne se refait pas 😉.
 
@@ -139,7 +141,7 @@ Je vous ai déjà un peu (beaucoup) spoilé mais ensuite vous pouvez simplement 
 ```
 
 Mais aussi comme n'importe quel template en ajoutant des configurations (feature, extensions, ...).
-Voici par exemple mon [devcontainer.json](https://github.com/bear-corp/the-cave/blob/main/java/.devcontainer/devcontainer.json) pour un projet de développement Java :
+Voici par exemple mon [devcontainer.json](https://github.com/bear-corp/the-cave/blob/main/java/.devcontainer/devcontainer.json) pour un projet de développement Java : 
 
 ```json
 {
@@ -183,15 +185,15 @@ Voici par exemple mon [devcontainer.json](https://github.com/bear-corp/the-cave/
 }
 ```
 
-Ce fichier est un peu plus long mais je reprends des notions que l'on vient de voir :
-- la ligne 3 est l'utilisation du template common
-- les lignes 5 et 24 me permettent via un volume Docker de centraliser mes dépendances Maven sur la machine hôte
-- de la ligne 7 à 22 j'installe les outils via des features : JDK, Maven, JBang, Quarkus
-- de la ligne 26 à 38 j'installe des extensions VSCode pour me faciliter la vie dans mes développements Java
+Ce fichier est un peu plus long mais je reprends des notions que l'on vient de voir : 
+  - la ligne 3 est l'utilisation du template common 
+  - les lignes 5 et 24 me permettent via un volume Docker de centraliser mes dépendances Maven sur la machine hôte
+  - de la ligne 7 à 22 j'installe les outils via des features : JDK, Maven, JBang, Quarkus 
+  - de la ligne 26 à 38 j'installe des extensions VSCode pour me faciliter la vie dans mes développements Java
 
 Bien entendu, encore une fois l'idée est de construire un template *prebuild* avec cette configuration pour ne pas avoir le temps de construction lorsque je crée un nouveau projet Java : `devcontainer build --workspace-folder . --push true --image-name wilda/java-devcontainer:1.2.0`.
 
-Ensuite, je l'utilise de manière très épurée dans mes projets Java avec un temps de démarrage rapide :
+Ensuite, je l'utilise de manière très épurée dans mes projets Java avec un temps de démarrage rapide : 
 
 ```json
 {

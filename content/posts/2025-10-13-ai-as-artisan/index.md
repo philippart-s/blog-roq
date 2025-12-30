@@ -1,13 +1,12 @@
 ---
 title: "🤖 L'IA cet artisan comme les autres (?) 🧰"
-description: Peut-on encore parler d'artisanat pour le code avec l'IA générative ?
-image: artisan.jpg
+description: "Peut-on encore parler d'artisanat pour le code avec l'IA générative ?"
+link: /2025-10-13-ai-as-artisan
 tags: 
-  - Code
-  - Humeur
-  - IA 
+  - IA
+image: artisan.jpg
+figCaption: "© Vatsal Tyagi"
 author: wilda
-figCaption: ©Jean Dupont
 ---
 
 > ℹ️ Ne vous méprenez pas sur ce qui suit.
@@ -73,8 +72,8 @@ Non pas que je m'imagine créer des chefs d'oeuvres mais parce que j'y mets de l
 Cela explique pourquoi, parfois, on a des débats enflammés entre développeuses et développeurs car c'est une petite partie de nous, le bout de code 😉.
 
 > A ce sujet : je ne partage pas le "tu n'es pas ton code", bien sûr que l'on est son code, c'est même une partie de nous. (on verra qu'avec l'IA cela change peut-être ...)
-> Je pense que l'on expose cet argument (tu n'es pas ton code) pour pouvoir dédramatiser et critiquer plus ouvertement ce qu'un•e dev a produit.
-> Essayez d'expliquer à un•e ébéniste que son meuble est moche et ne sert à rien, on verra si iel sépare l'objet de la personne 😉
+> Je pense que l'on expose cet argument (tu n'es pas ton code) pour pouvoir dédramatiser et critiquer plus ouvertement ce qu'un•e dev a produit.  
+> Essayez d'expliquer à un•e ébéniste que son meuble est moche et ne sert à rien, on verra si iel sépare l'objet de la personne 😉.
 > Ce que je veux dire c'est que l'on met de l'affect dans notre code, la critique est toujours bonne, mais comme toujours de manière constructive et non destructive.
 
 On en est donc là, le métier de dev confronté au monde professionnel.
@@ -192,5 +191,7 @@ Et avec un peu de tristesse, je me dis que, peut-être, ses jours tels que je le
 
 Si vous êtes arrivé·es là, merci car ce fut long et j'espère que vous avez apprécié ma modeste prose ... sortie de mon cerveau sans aucune aide extérieure 😉.
 
+Merci à ma relectrice, Fanny, qui vous permet de lire cet article sans avoir trop les yeux qui saignent 😘.
+
 ![Un amstrad CPC 6128](amstrad.jpg)  
-[© Centre for Computing History](https://www.computinghistory.org.uk/)
+[© Centre for Computing History](https://www.computinghistory.org.uk/)<br/>

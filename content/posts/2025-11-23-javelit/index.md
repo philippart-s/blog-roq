@@ -1,9 +1,11 @@
 ---
 title: "Javelit... et au revoir Streamlit ?"
 description: "Est-il possible de se passer de Python pour une app en Data Science / IA"
-tags: Code, IA, Javelit
+link: /2025-11-23-javelit
+tags: 
+  - IA
 image: gondola.jpg
-figCaption: © Pauline
+figCaption: "© Pauline"
 author: wilda
 ---
 
@@ -122,8 +124,8 @@ Quelques explications :
 
 Il ne me reste plus qu'à lancer mon application avec la CLI : `javelit run SpeechToText.java`
 
-![Interface speech-to-text générée par Javelit]({{ site.url }}{{ site.baseurl }}/assets/images/javelit/speech-to-text.png){: .align-center}
-[© wildagsx](https://www.linkedin.com/in/philippartstephane/){:style="font-size: smaller"}{: .align-right}<br/>
+![Interface speech-to-text générée par Javelit](speech-to-text.png)
+[© wildagsx](https://www.linkedin.com/in/philippartstephane/)<br/>
 
 
 ### 🧐 Conclusion

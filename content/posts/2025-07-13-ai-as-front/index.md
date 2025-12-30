@@ -1,11 +1,12 @@
 ---
 title: "🤖 Et si les LLM étaient le nouveau front ? 🎨"
-description: "On nous promet la fin des développeuses et développeurs, mais si au final l'IA n'était qu'une nouvelle façon de faire du front ?" 
+description: "On nous promet la fin des développeuses et développeurs, mais si au final l'IA n'était qu'une nouvelle façon de faire du front ?"
+link: /2025-07-13-ai-as-front
 tags: 
-   - IA 
-   - Front
-   - LLM
-image: image-illustration.jpg
+  - IA
+  - Front
+  - LLM
+image: cover.jpg
 figCaption: "@wildagsx"
 author: wilda
 ---
@@ -172,4 +173,3 @@ Si il vous a plu, ou même si j'en ai envie, je rajouterai peut être des articl
 Vous avez déjà quelques liens pour commencer à sauter le pas 😉.
 
 Si vous êtes arrivés jusque là merci de m'avoir lu et si il y a des coquilles n'hésitez pas à me faire une [issue ou PR](https://github.com/philippart-s/blog) 😊.
-
