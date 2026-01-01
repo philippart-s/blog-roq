@@ -5,5 +5,5 @@ image: conferences/devoxx-belgium-2025.png
 layout: conference
 author: wilda
 conference-name: devoxx-belgium-2025
-link: devoxx-belgium-2025
+link: /talks/devoxx-belgium-2025
 ---

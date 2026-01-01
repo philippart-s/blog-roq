@@ -5,5 +5,5 @@ image: conferences/devday-2023.png
 layout: conference
 author: wilda
 conference-name: devday-2023
-link: devday-2023
+link: /talks/devday-2023
 ---

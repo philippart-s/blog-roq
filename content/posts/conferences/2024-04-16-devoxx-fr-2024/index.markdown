@@ -5,5 +5,5 @@ image: conferences/devoxx-fr-2024.png
 layout: conference
 author: wilda
 conference-name: devoxx-fr-2024
-link: devoxx-fr-2024
+link: /talks/devoxx-fr-2024
 ---

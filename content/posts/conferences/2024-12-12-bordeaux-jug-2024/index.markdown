@@ -5,5 +5,5 @@ image: conferences/bordeaux-jug-2024.png
 layout: conference
 author: wilda
 conference-name: bordeaux-jug-2024
-link: bordeaux-jug-2024
+link: /talks/bordeaux-jug-2024
 ---

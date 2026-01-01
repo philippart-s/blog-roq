@@ -5,5 +5,5 @@ image: conferences/voxxed-days-lux-2024.png
 layout: conference
 author: wilda
 conference-name: voxxed-days-lux-2024
-link: voxxed-days-lux-2024
+link: /talks/voxxed-days-lux-2024
 ---

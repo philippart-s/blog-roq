@@ -5,5 +5,5 @@ image: conferences/cloud-ouest-2022.png
 layout: conference
 author: wilda
 conference-name: cloud-ouest-2022
-link: cloud-ouest-2022
+link: /talks/cloud-ouest-2022
 ---

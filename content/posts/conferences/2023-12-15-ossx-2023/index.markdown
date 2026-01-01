@@ -5,5 +5,5 @@ image: conferences/ossx-2023.png
 layout: conference
 author: wilda
 conference-name: ossx-2023
-link: ossx-2023
+link: /talks/ossx-2023
 ---

@@ -5,5 +5,5 @@ image: conferences/cncf-lorient-2024.png
 layout: conference
 author: wilda
 conference-name: cncf-lorient-2024
-link: cncf-lorient-2024
+link: /talks/cncf-lorient-2024
 ---

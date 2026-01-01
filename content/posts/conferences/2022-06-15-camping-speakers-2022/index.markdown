@@ -5,5 +5,5 @@ image: conferences/camping-speakers-2022.png
 layout: conference
 author: wilda
 conference-name: camping-speakers-2022
-link: camping-speakers-2022
+link: /talks/camping-speakers-2022
 ---

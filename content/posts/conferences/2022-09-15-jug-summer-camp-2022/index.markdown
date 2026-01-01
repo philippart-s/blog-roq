@@ -5,5 +5,5 @@ image: conferences/jug-summer-camp-2022.png
 layout: conference
 author: wilda
 conference-name: jug-summer-camp-2022
-link: jug-summer-camp-2022
+link: /talks/jug-summer-camp-2022
 ---

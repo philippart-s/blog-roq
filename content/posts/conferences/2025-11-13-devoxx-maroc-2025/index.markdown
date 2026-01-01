@@ -5,5 +5,5 @@ image: conferences/devoxx-maroc-2025.png
 layout: conference
 author: wilda
 conference-name: devoxx-maroc-2025
-link: devoxx-maroc-2025
+link: /talks/devoxx-maroc-2025
 ---

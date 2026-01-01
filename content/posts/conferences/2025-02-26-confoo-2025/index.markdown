@@ -5,5 +5,5 @@ image: conferences/confoo-2025.png
 layout: conference
 author: wilda
 conference-name: confoo-2025
-link: confoo-2025
+link: /talks/confoo-2025
 ---

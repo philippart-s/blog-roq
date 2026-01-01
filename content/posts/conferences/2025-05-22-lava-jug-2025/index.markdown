@@ -5,5 +5,5 @@ image: conferences/lava-jug-2025.png
 layout: conference
 author: wilda
 conference-name: lava-jug-2025
-link: lava-jug-2025
+link: /talks/lava-jug-2025
 ---

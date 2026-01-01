@@ -5,5 +5,5 @@ image: conferences/bdx-io-2025.png
 layout: conference
 author: wilda
 conference-name: bdx-io-2025
-link: bdx-io-2025
+link: /talks/bdx-io-2025
 ---

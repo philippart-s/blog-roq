@@ -5,5 +5,5 @@ image: conferences/kcd-france-2023.png
 layout: conference
 author: wilda
 conference-name: kcd-france-2023
-link: kcd-france-2023
+link: /talks/kcd-france-2023
 ---

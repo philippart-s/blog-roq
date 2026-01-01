@@ -5,5 +5,5 @@ image: conferences/web2day-2023.png
 layout: conference
 author: wilda
 conference-name: web2day-2023
-link: web2day-2023
+link: /talks/web2day-2023
 ---

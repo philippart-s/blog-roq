@@ -5,5 +5,5 @@ image: conferences/sunnytech-2025.png
 layout: conference
 author: wilda
 conference-name: sunnytech-2025
-link: sunnytech-2025
+link: /talks/sunnytech-2025
 ---

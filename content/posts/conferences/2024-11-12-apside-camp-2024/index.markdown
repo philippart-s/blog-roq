@@ -5,5 +5,5 @@ image: conferences/apside-camp-2024.png
 layout: conference
 author: wilda
 conference-name: apside-camp-2024
-link: apside-camp-2024
+link: /talks/apside-camp-2024
 ---

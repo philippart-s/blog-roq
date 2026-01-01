@@ -5,5 +5,5 @@ image: conferences/vtt-2023.png
 layout: conference
 author: wilda
 conference-name: vtt-2023
-link: vtt-2023
+link: /talks/vtt-2023
 ---

@@ -5,5 +5,5 @@ image: conferences/voxeed-days-lux-2022.png
 layout: conference
 author: wilda
 conference-name: voxeed-days-lux-2022
-link: voxeed-days-lux-2022
+link: /talks/voxeed-days-lux-2022
 ---

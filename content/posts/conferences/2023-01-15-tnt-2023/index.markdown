@@ -5,5 +5,5 @@ image: conferences/conference.jpg
 layout: conference
 author: wilda
 conference-name: tnt-2023
-link: tnt-2023
+link: /talks/tnt-2023
 ---
