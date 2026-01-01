@@ -5,5 +5,5 @@ image: conferences/snowcamp-2024.png
 layout: conference
 author: wilda
 conference-name: snowcamp-2024
-link: snowcamp-2024
+link: /talks/snowcamp-2024
 ---

@@ -5,5 +5,5 @@ image: conferences/meetup-programmez-2023.png
 layout: conference
 author: wilda
 conference-name: meetup-programmez-2023
-link: meetup-programmez-2023
+link: /talks/meetup-programmez-2023
 ---

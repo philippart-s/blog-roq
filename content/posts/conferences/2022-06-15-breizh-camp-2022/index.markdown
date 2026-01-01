@@ -5,5 +5,5 @@ image: conferences/breizh-camp-2022.png
 layout: conference
 author: wilda
 conference-name: breizh-camp-2022
-link: breizh-camp-2022
+link: /talks/breizh-camp-2022
 ---

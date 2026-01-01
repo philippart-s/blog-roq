@@ -5,5 +5,5 @@ image: conferences/devfestnantes-2025.png
 layout: conference
 author: wilda
 conference-name: devfestnantes-2025
-link: devfestnantes-2025
+link: /talks/devfestnantes-2025
 ---

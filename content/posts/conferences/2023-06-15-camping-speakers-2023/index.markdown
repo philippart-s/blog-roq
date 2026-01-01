@@ -5,5 +5,5 @@ image: conferences/camping-speakers-2023.png
 layout: conference
 author: wilda
 conference-name: camping-speakers-2023
-link: camping-speakers-2023
+link: /talks/camping-speakers-2023
 ---

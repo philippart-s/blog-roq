@@ -5,5 +5,5 @@ image: conferences/conference.jpg
 layout: conference
 author: wilda
 conference-name: volcamp-2022
-link: volcamp-2022
+link: /talks/volcamp-2022
 ---

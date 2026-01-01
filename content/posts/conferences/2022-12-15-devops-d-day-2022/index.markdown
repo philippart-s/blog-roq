@@ -5,5 +5,5 @@ image: conferences/devops-d-day-2022.png
 layout: conference
 author: wilda
 conference-name: devops-d-day-2022
-link: devops-d-day-2022
+link: /talks/devops-d-day-2022
 ---

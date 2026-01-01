@@ -1,10 +1,11 @@
 ---
 title: "👹 Migrer son blog Jekyll vers Quarkus Roq ⚡️"
 description: Comment et pourquoi migrer son blog Jekyll vers Quarkus Roq
-image: 
-tags: Code, blog
-layout: :theme/post
-category: Blog
+link: /2026-01-01-jekyll-to-roq
+image: roq-logo.jpg
+tags: 
+  - Code
+  - Blog
 author: wildagsx
 ---
 # Migration

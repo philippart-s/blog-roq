@@ -5,5 +5,5 @@ image: conferences/jug-summercamp-2025.png
 layout: conference
 author: wilda
 conference-name: jug-summercamp-2025
-link: jug-summercamp-2025
+link: /talks/jug-summercamp-2025
 ---

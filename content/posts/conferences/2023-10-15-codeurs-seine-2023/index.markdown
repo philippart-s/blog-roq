@@ -5,5 +5,5 @@ image: conferences/codeurs-seine-2023.png
 layout: conference
 author: wilda
 conference-name: codeurs-seine-2023
-link: codeurs-seine-2023
+link: /talks/codeurs-seine-2023
 ---

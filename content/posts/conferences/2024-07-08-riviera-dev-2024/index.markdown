@@ -5,5 +5,5 @@ image: conferences/riviera-dev-2024.png
 layout: conference
 author: wilda
 conference-name: riviera-dev-2024
-link: riviera-dev-2024
+link: /talks/riviera-dev-2024
 ---

@@ -5,5 +5,5 @@ image: conferences/cloud-nord-2023.png
 layout: conference
 author: wilda
 conference-name: cloud-nord-2023
-link: cloud-nord-2023
+link: /talks/cloud-nord-2023
 ---

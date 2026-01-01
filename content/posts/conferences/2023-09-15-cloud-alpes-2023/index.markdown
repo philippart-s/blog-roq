@@ -5,5 +5,5 @@ image: conferences/cloud-alpes-2023.png
 layout: conference
 author: wilda
 conference-name: cloud-alpes-2023
-link: cloud-alpes-2023
+link: /talks/cloud-alpes-2023
 ---

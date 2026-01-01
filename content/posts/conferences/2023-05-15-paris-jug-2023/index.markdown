@@ -5,5 +5,5 @@ image: conferences/paris-jug-2023.png
 layout: conference
 author: wilda
 conference-name: paris-jug-2023
-link: paris-jug-2023
+link: /talks/paris-jug-2023
 ---

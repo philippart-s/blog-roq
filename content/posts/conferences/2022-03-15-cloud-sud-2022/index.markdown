@@ -5,5 +5,5 @@ image: conferences/cloud-sud-2022.png
 layout: conference
 author: wilda
 conference-name: cloud-sud-2022
-link: cloud-sud-2022
+link: /talks/cloud-sud-2022
 ---

@@ -5,5 +5,5 @@ image: conferences/devquest-2025.png
 layout: conference
 author: wilda
 conference-name: devquest-2025
-link: devquest-2025
+link: /talks/devquest-2025
 ---

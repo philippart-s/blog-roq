@@ -20,7 +20,7 @@
 #     replay: 
 
 - name: DevFest Lyon
-  post-date: 2025-11-28
+  postDate: 2025-11-28
   talksUrl: devfest-lyon-2025
   date: 28 novembre 2025
   excerpt: "Talks donnés lors de DevFest Lyon 2025"
@@ -54,7 +54,7 @@
       replay:
 
 - name: DevFest Paris 2025
-  post-date: 2025-11-21
+  postDate: 2025-11-21
   date: 21 novembre 2025
   talksUrl: devfest-paris-2025
   excerpt: "Talk donné lors du DevFest Paris 2025"
