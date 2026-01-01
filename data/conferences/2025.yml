@@ -19,6 +19,73 @@
 #     slides: https://docs.google.com/presentation/d/e/2PACX-1vRgA5HVbBViro5I0kfW0bbqbhfAFj-jXpKqYp-DXTwPnalyB3YtrHEshCZDBE-is64J_H4qrWkLaz-L/pub
 #     replay: 
 
+- name: DevFest Lyon
+  post-date: 2025-11-28
+  talksUrl: devfest-lyon-2025
+  date: 28 novembre 2025
+  excerpt: "Talks donnés lors de DevFest Lyon 2025"
+  categories: Conférences
+  tags:
+    - Slides
+    - Replays
+  talks:
+    - title: "Développer un opérateur Kubernetes en Java, challenge accepted !"
+      id: "java-operator"
+      location: Lyon (🇫🇷)
+      language: Français
+      date: 28 novembre 2025
+      time:
+      duration: 50 minutes
+      pitch: |
+        Il n’est plus, je pense, nécessaire de présenter Kubernetes tellement il fait parti du paysage informatique. Avec sa généralisation, de nouveaux types de développements et de patterns sont apparus. Lors de ce talk j’aborderai l’un d’eux : les opérateurs.
+        
+        Merveilleux assistants, aptes à faire énormément de choses. Mais voilà, les nombreuses documentations que l’on trouve tournent principalement autour d’un langage : Go. Ce n’est pas que cela ne me plaise pas, mais l’idée est de pouvoir aussi le faire avec un autre langage que je connais et utilisé par de nombreuses équipes de développement : Java.
+        
+        Lors de ce talk, je vous présenterai, de manière simple, la notion des opérateurs au sein de Kubernetes : à quoi ils servent et comment ils évoluent dans l’éco-système Kubernetes. Nous verrons qu’ils peuvent être de simples aides à l’installation ou à la mise à jour d’une application au sein de Kubernetes mais aussi aller beaucoup plus loin en devenant de vrais Ops pour gérer vos applications pour vous !
+        
+        Puis, nous développerons un opérateur ensemble et en Java : un bon Hello World nous permettant de prendre en main le SDK Java mais aussi les différents éléments présentés au début du talk.
+        
+        Enfin, nous essaierons de nous projeter vers un opérateur faisant un peu plus que Hello World afin de voir si vraiment il sait faire de l’Ops !
+        
+        A la fin de ce talk, vous aurez les différents éléments pour savoir si vous avez besoin de développer un opérateur, comment le développer, et choisir entre le faire en Java ou dans un autre langage !
+
+      slides: https://docs.google.com/presentation/d/e/2PACX-1vSGSmBZRv0jsh5W240Mqf6EJ6iBU9T0_MMQDxUJ7luOchSYA6qMb5ebAHPxE9vwvpsJuNZgMh5m1zha/pub
+      source: https://github.com/philippart-s/java-operator-samples
+      replay:
+
+- name: DevFest Paris 2025
+  post-date: 2025-11-21
+  date: 21 novembre 2025
+  talksUrl: devfest-paris-2025
+  excerpt: "Talk donné lors du DevFest Paris 2025"
+  categories: Conférences
+  tags:
+    - Slides
+    - Replays
+  talks:
+    - title: "☕️ Picocli : mets du Java dans ton terminal ! 🖥️"
+      id: "picocli"
+      location: Paris (🇫🇷)
+      language: Français
+      date: vendredi 21 novembre 2025
+      time: 11h10 - 12h00
+      duration: 50 mins
+      pitch: |
+        Les CLI (Command Line Interface), tout le monde les utilise et elles existent depuis la nuit des temps.
+        Souvent synonymes de gain de productivité, leur création est parfois obscure et peut sembler complexe.
+        C'était le cas il y a quelques décennies, mais depuis quelques années, des langages et Frameworks permettent d'en écrire simplement dans votre langage préféré.
+        Je vous propose d'utiliser un langage qui ne paraît pas, au premier abord, le plus intuitif pour faire une CLI : Java !
+
+        Mais il sera bien accompagné dans cette tâche : grâce à Picocli et Quarkus, notre CLI aura tout d'une grande, tout en étant simple à développer !
+        Et cerise sur le gâteau : nous créerons un "vrai" exécutable grâce à Graal VM.
+
+        Venez m'accompagner lors d'une session de live coding permettant de mettre en lumière comment créer une CLI en Java avec Picocli et Quarkus en partant de zéro !
+
+        Et qui sait, avec un peu de magie on aura, au final, un vrai assistant intelligent dans notre et terminal 🤖.
+      source: https://github.com/philippart-s/jarvis
+      slides: https://docs.google.com/presentation/d/e/2PACX-1vR4egHoUB69-J--bNnNoslVR9c1zCTff8X0ZiuVbFPYF5d1SL0tGLRIuZKBWvfrNOJRE7yEz1VzOm1L/pub
+      replay: https://youtu.be/Htf7sdGq-3c?si=rGW1wHApoc6Z-8Nb
+
 - name: Devoxx Maroc
   postDate: 2025-11-13
   date: 13 novembre 2025
