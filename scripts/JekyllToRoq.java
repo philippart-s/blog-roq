@@ -1,11 +1,19 @@
 //JAVA 25
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 final static String JEKYLL_BLOG_PATH = "./_posts/";
 final static String ROQ_BLOG_PATH = "../content/posts/tmp/";
 
 
 private String transformJekyllToRoq(String content, String targetFolder) {
-    // Regex pour capturer le front matter
+    // Front matter cpature
     Pattern frontMatterPattern = Pattern.compile("^---(.*?)---", Pattern.DOTALL);
     Matcher matcher = frontMatterPattern.matcher(content);
 
@@ -13,7 +21,6 @@ private String transformJekyllToRoq(String content, String targetFolder) {
         String jekyllFrontMatter = matcher.group(1);
         String body = content.substring(matcher.end()).trim();
 
-        // Suppression des balises meta SEO de Jekyll (souvent problématiques avec Roq)
         body = body.replaceAll("<meta content=\"\\{\\{.*?property=\"og:image\">", "");
 
         String headOfBody = body.substring(0, Math.min(body.length(), 300));
@@ -25,29 +32,25 @@ private String transformJekyllToRoq(String content, String targetFolder) {
         String figCaption = "";
 
 
+        // Images manipulations
         if (imageMatcher.find()) {
-            // On a trouvé une image, on l'extrait
             String fullImagePath = imageMatcher.group(1);
             imageForFrontMatter = Paths.get(fullImagePath).getFileName().toString();
             String imageFullMatch = imageMatcher.group(0);
 
-            // On supprime l'image du corps
+            // Delete header image
             body = body.replace(imageFullMatch, "").trim();
 
-            // 2. Détection d'un lien de crédit (légende) immédiatement après l'image
-            // On cherche un pattern [Texte](URL) suivi de n'importe quel nombre d'attributs {:...}
-            // Le (?:\\{:.*?\\})* permet de capturer zéro, un ou plusieurs blocs d'attributs
+            // Get copyright
             Pattern linkPattern = Pattern.compile("^\\[(.*?)\\]\\(.*?\\)(?:\\{:.*?\\})*", Pattern.DOTALL);
             Matcher linkMatcher = linkPattern.matcher(body);
 
             if (linkMatcher.find()) {
-                // Le texte du lien devient notre figCaption
                 figCaption = linkMatcher.group(1);
                 IO.println("figCaption: " + figCaption);
-                // On supprime ce lien ET tous ses attributs du corps du texte
+
                 body = body.replace(linkMatcher.group(0), "").trim();
 
-                // Optionnel : supprimer d'éventuels <br/> qui traîneraient juste après
                 if (body.startsWith("<br/>")) {
                     body = body.substring(5).trim();
                 }
@@ -55,26 +58,24 @@ private String transformJekyllToRoq(String content, String targetFolder) {
         }
 
 
-        // Nettoyage du corps du texte (suppression des attributs Kramdown)
+        // Remove Kramedown code
         body = body.replace("{:target=\"_blank\"}", "");
 
-        // Nettoyage de TOUTES les images restantes dans le corps
-        // Remplace ![alt]({{ site... }}/path/file.jpg){: .align-center} par ![alt](file.jpg)
+        // Update path images
         body = body.replaceAll("!\\[(.*?)\\]\\(.*?/assets/images/.*?/([^\\s\\)]+).*?\\)(?:\\{:.*?\\})*", "![$1]($2)");
-        // Suppression de TOUS les attributs Jekyll résiduels {: ... } dans tout le document
-        // Cela couvre {:style="..."}, {: .align-right}, {:target="..."} etc.
+
+        // Remove Kramedown code
         body = body.replaceAll("\\{:.*?\\}", "");
-        // Bracket protection
+
+        // Do not touch to Qute code
         body = protectRoqExpressions(body);
 
-        // Extraction des données Jekyll
+        // Jekyll to ROQ data transfert
         String title = extractValue(jekyllFrontMatter, "title");
         String description = extractValue(jekyllFrontMatter, "excerpt");
-
-        // Extraction des tags (on combine categories et tags de Jekyll)
         String tagsBlock = extractRawYamlList(jekyllFrontMatter, "tags");
 
-        // Construction du nouveau Front Matter
+        // New front matter
         StringBuilder roqFront = new StringBuilder("---\n");
         roqFront.append("title: \"").append(title).append("\"\n");
         roqFront.append("description: \"").append(description.replace("\"", "\\\"")).append("\"\n");
@@ -87,13 +88,13 @@ private String transformJekyllToRoq(String content, String targetFolder) {
         roqFront.append("author: wilda\n");
         roqFront.append("---\n\n");
 
-        return roqFront.toString() + body;
+        return roqFront + body;
     }
     return content;
 }
 
 private String extractValue(String yaml, String key) {
-    // On capture la valeur après la clé, en ignorant les guillemets entourant s'ils existent
+    // We capture the value after the key, ignoring the surrounding quotation marks if they exist.
     Pattern p = Pattern.compile(key + ":\\s*(.*)(?:\\n|$)");
     Matcher m = p.matcher(yaml);
     if (m.find()) {
@@ -104,40 +105,40 @@ private String extractValue(String yaml, String key) {
     return "";
 }
 private String extractRawYamlList(String yaml, String key) {
-    // Capture tout le bloc qui commence par "-" après la clé spécifiée
+    // Capture the entire block that starts with “-” after the specified key.
     Pattern p = Pattern.compile(key + ":\\s*\\n((?:\\s*-.*?(?:\\n|$))+)");
     Matcher m = p.matcher(yaml);
     if (m.find()) {
         return m.group(1).stripTrailing();
     }
-    return "  - blog"; // Valeur par défaut si aucun tag n'est trouvé
+    return "  - blog";
 }
 
 private String extractFirstImage(String body) {
-    // Cherche ![alt text](url) et extrait le nom du fichier
+    // Search for ![alt text](url) and extract the filename.
     Pattern p = Pattern.compile("!\\[.*?\\]\\(.*?/([^/\\)]+\\.(?:jpg|png|jpeg|webp))\\)");
     Matcher m = p.matcher(body);
     return m.find() ? m.group(1) : "";
 }
 
 private String extractFigCaption(String body) {
-    // Cherche les liens de crédit type [© Pauline]
+    // Search for credit links like [© Pauline].
     Pattern p = Pattern.compile("\\[(©.*?)\\]");
     Matcher m = p.matcher(body);
     return m.find() ? m.group(1) : "";
 }
 
 private String extractImageSourceSubPath(String body) {
-    // Capture la partie après /assets/images/ (ex: javelit/gondola.jpg)
+    // Capture the part after /assets/images/ (e.g., javelit/gondola.jpg).
     Pattern p = Pattern.compile("/assets/images/([^\\s\\)]+\\.(?:jpg|png|jpeg|webp|svg))");
     Matcher m = p.matcher(body);
     return m.find() ? m.group(1) : "";
 }
 
 private String protectRoqExpressions(String body) {
-    // On ne protège que si l'accolade est suivie immédiatement par une lettre
-    // sans espace, ce qui correspond aux expressions Qute/Roq.
-    // On ajoute un espace : {events -> { events
+    // We only protect it if the brace is immediately followed by a letter,
+    // with no space, which corresponds to Qute/Roq expressions.
+    // We add a space: {events → { events.
     return body.replaceAll("\\{([a-zA-Z])", "{ $1");
 }
 
@@ -153,25 +154,24 @@ void main() {
         files.filter(path -> path.toString().endsWith(".md"))
                 .forEach(jekyllFile -> {
                     try {
-                        // 1. Déterminer le nom du dossier (ex: 2025-01-12-titre)
+                        // 1. Determine the folder name (e.g., 2025-01-12-title).
                         String fileName = jekyllFile.getFileName().toString();
                         String folderName = fileName.replace(".md", "");
 
-                        // 2. Créer le dossier de destination
+                        // 2. Create the destination folder.
                         Path targetFolder = roqPath.resolve(folderName);
                         Files.createDirectories(targetFolder);
 
-                        // 3. Définir le fichier cible index.md
+                        // 3. Define the target file index.md.
                         Path targetFile = targetFolder.resolve("index.md");
 
-                        // 4. Copier le contenu
+                        // 4. Copy the content.
                         String content = Files.readString(jekyllFile);
                         String imageSourceSubPath = extractImageSourceSubPath(content);
 
                         if (!imageSourceSubPath.isEmpty()) {
                             Path sourceImagePath = jekyllImagesBase.resolve(imageSourceSubPath);
                             if (Files.exists(sourceImagePath)) {
-                                // Copie de l'image à la racine du dossier du post
                                 Files.copy(sourceImagePath, targetFolder.resolve(sourceImagePath.getFileName()), StandardCopyOption.REPLACE_EXISTING);
                             }
                         }

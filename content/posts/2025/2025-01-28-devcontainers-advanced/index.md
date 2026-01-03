@@ -9,7 +9,7 @@ figCaption: "@wildagsx"
 author: wilda
 ---
 
-> Cet article est la deuxième partie de l'article précédent sur les Dev Containers, je vous conseille de lire le premier article [🧑‍💻 A la découverte des Dev Containers 🐳](/2025-01-12-discover-devcontainers) avant de lire celui-ci.
+> Cet article est la deuxième partie de l'article précédent sur les Dev Containers, je vous conseille de lire le premier article [🧑‍💻 A la découverte des Dev Containers 🐳]({site.url}/2025-01-12-discover-devcontainers) avant de lire celui-ci.
 
 Suite à la mise en bouche avec l'article précédent concernant les _Dev Containers_, je vous propose de pousser un plus loin l'utilisation de ceux-ci.
 En effet, le premier exemple était assez simple puisqu'il s'agissait d'utiliser les _Dev Containers_ pour l'écriture d'articles de mon blog (celui même que vous lisez 😉).
@@ -17,7 +17,7 @@ Il y a bien des cas où l'environnement de travail ne se résume pas à _juste_ 
 
 Pour illustrer les différentes façons de customiser un _Dev Container_ je vais prendre comme objectif d'avoir [SliDesk](https://slidesk.github.io/slidesk-doc/) installé dans mon environnement de travail.
 
-> Si vous ne connaissez pas SliDesk je vous laisse allez le découvrir dans l'article [🖼️ Slides as code avec SliDesk 👨‍💻](/2024-03-09-slidesk-discovery)
+> Si vous ne connaissez pas SliDesk je vous laisse allez le découvrir dans l'article [🖼️ Slides as code avec SliDesk 👨‍💻]({site.url}/2024-03-09-slidesk-discovery)
 
 
 ## 😌 La solution simple : postcommand
