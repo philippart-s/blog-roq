@@ -15,12 +15,15 @@ import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
 import java.util.Map;
 
+/// Class to generate the conference blog posts.
+/// This class is called on each Quarkus start to generate the conferences posts.
 @ApplicationScoped
 public class ConferenceGenerator {
     @Inject
     @Named("conferences")
     JsonObject allConferences;
 
+    // front matter with dynamics values from the YAML conferences data.
     String frontMatter = """
 ---
 title: "🎤 Talks donnés à %s 🎤"
@@ -32,11 +35,12 @@ conference-name: %s
 link: %s
 ---""";
 
-    /** Méthode appelée dès que l’application est prête. */
+    /// Called once the QUarkus application is ready
     void onStart(@Observes StartupEvent ev) throws IOException {
         Log.info("🚀 Conference pages generation...");
         Map<String, Object> mapOfAllConferences = allConferences.getMap();
 
+        // Conferences posts generation, only non existing posts must be generated.
         for (var entry : mapOfAllConferences.entrySet()) {
             JsonArray conferences = (JsonArray) entry.getValue();
             for (var conference : conferences) {
@@ -63,28 +67,6 @@ link: %s
             }
         }
 
-/*        JsonObject conference = allConferences.getJsonArray("2025").getJsonObject(0);
-
-
-        Path dir = Path.of("./content/posts/conferences/" + conference.getString("postDate") + "-" + conference.getString("talksUrl"));
-        if (!Files.isDirectory(dir)) {
-            Files.createDirectories(dir);
-        }
-        Path file = Path.of(dir + "/index.markdown");
-        if (!Files.exists(file)) {
-            Files.createDirectories(dir);
-            Files.write(file,
-                    frontMatter.formatted(conference.getString("name"),
-                            conference.getString("name"),
-                            (Files.exists(Path.of("./public/images/conferences/" + conference.getString("talksUrl") + ".png")) ?
-                                    "conferences/" + conference.getString("talksUrl") + ".png" :
-                                    "conferences/conference.jpg"),
-                            conference.getString("talksUrl"),
-                            conference.getString("talksUrl")).getBytes(),
-                    StandardOpenOption.CREATE,
-                    StandardOpenOption.TRUNCATE_EXISTING,
-                    StandardOpenOption.WRITE);
-        }*/
         Log.info("✅ Conference pages generated ✅");
     }
 }

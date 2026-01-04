@@ -10,7 +10,7 @@ author: wilda
 ---
 
 > **TL;DR**  
-> Cet article est la troisième partie de la série d'articles sur les Dev Containers, je vous conseille de lire les premiers articles [🧑‍💻 A la découverte des Dev Containers 🐳](2025-01-12-discover-devcontainers) et [🧑‍💻 Aller plus loin avec les Dev Containers 🐳](2025-01-28-devcontainers-advanced) avant de lire celui-ci.  
+> Cet article est la troisième partie de la série d'articles sur les Dev Containers, je vous conseille de lire les premiers articles [🧑‍💻 A la découverte des Dev Containers 🐳](2025-01-12-discover-devcontainers) et [🧑‍💻 Aller plus loin avec les Dev Containers 🐳]({site.url}/2025-01-28-devcontainers-advanced) avant de lire celui-ci.  
 > L'ensemble des exemples et des définitions des images pour les dev containers se trouvent dans le repository [bear-corp/the-cave](https://github.com/bear-corp/the-cave).
 
 Si vous avez débuté votre voyage dans les dev containers, que ce soit en me lisant ou par votre propre envie, vous êtes certainement arrivé•es à la même conclusion que moi : les dev containers c'est bien, mais niveau performances cela peut, parfois, ne pas être top.

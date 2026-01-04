@@ -10,15 +10,21 @@ import jakarta.inject.Named;
 import java.util.List;
 import java.util.Map;
 
+/// Class to manipulate JSON objects created from YAML data.
+/// The bean is injected as `myConfs` bean to be used in Qute.
 @ApplicationScoped
 @Named("myConfs")
 public class ConferencesProcessor {
 
 
+    // This field represents the ./data/conferences folder. This field has a JSONArray with the directory files content (2022.yml, ...
     @Inject
     @Named("conferences")
     JsonObject talks;
 
+    /// This method takes an id (`picocli` for example) and give the given talks that have this id.
+    /// @param id The id that the talk must have
+    /// @return Talks list with the right id
     public List<Talk> getByIds(String id) {
         List<Talk> filtered = talks.stream() // stream sur les années
                 .map(entry -> (Map.Entry<String, Object>) entry)
@@ -36,21 +42,22 @@ public class ConferencesProcessor {
                                 event.getString("talksUrl")))
                 )
                 .toList();
-        //System.out.println(filtered);
 
         return filtered;
     }
 
+    /// This method returns the corresponding JSONObject given the talk url post.
+    /// @param url The unique URL for a conference
+    /// @return The given JSONObject for a URL
     public List<JsonObject> getByUrl(String url) {
         List<JsonObject> filtered = talks.stream()
                 .map(entry -> (Map.Entry<String, Object>) entry)
-                .map(Map.Entry::getValue)                        // → JsonArray
-                .map(v -> (JsonArray) v)                        // cast sûr
-                .flatMap(events -> events.stream())             // stream des events
+                .map(Map.Entry::getValue)
+                .map(v -> (JsonArray) v)
+                .flatMap(events -> events.stream())
                 .map(event -> (JsonObject) event)
                 .filter(event -> url.equals(event.getString("talksUrl")))
                 .toList();
         return filtered;
     }
-
 }
