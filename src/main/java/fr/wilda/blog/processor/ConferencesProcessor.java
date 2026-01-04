@@ -22,8 +22,8 @@ public class ConferencesProcessor {
     @Named("conferences")
     JsonObject talks;
 
-    /// This method take an id (`picocli` for example) and give the given talks that have this id.
-    /// @param id The id taht the talk must have
+    /// This method takes an id (`picocli` for example) and give the given talks that have this id.
+    /// @param id The id that the talk must have
     /// @return Talks list with the right id
     public List<Talk> getByIds(String id) {
         List<Talk> filtered = talks.stream() // stream sur les années
@@ -46,7 +46,7 @@ public class ConferencesProcessor {
         return filtered;
     }
 
-    /// This method return the corresponding JSONObject given the talk url post.
+    /// This method returns the corresponding JSONObject given the talk url post.
     /// @param url The unique URL for a conference
     /// @return The given JSONObject for a URL
     public List<JsonObject> getByUrl(String url) {
